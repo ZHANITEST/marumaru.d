@@ -1,0 +1,17 @@
+{
+    "name": "marumaru",
+    "authors": [
+        "ZHANITEST"
+    ],
+    "description": "marumaru.in api",
+    "copyright": "Copyleft LGPLv2 2017, ZHANITEST",
+    "license": "LGPL-v2",
+    "dependencies": {
+        "requests": "~>0.5.3",
+        "libdominator": "~>1.1.5"
+    },
+    "subConfigurations": {
+        "requests": "vibed"
+    },
+    "lflags":["/NODEFAULTLIB:legacy_stdio_definitions"]
+}
