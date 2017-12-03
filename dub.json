@@ -7,8 +7,8 @@
     "copyright": "Copyleft LGPLv2 2017, ZHANITEST",
     "license": "LGPL-v2",
     "dependencies": {
-        "requests": "~>0.5.3",
-        "libdominator": "~>1.1.5"
+        "requests": "~>0.6.0",
+        "libdominator": "~>1.1.6"
     },
     "subConfigurations": {
         "requests": "vibed"
