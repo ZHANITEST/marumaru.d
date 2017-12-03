@@ -3,6 +3,7 @@
     "authors": [
         "ZHANITEST"
     ],
+    "targetType":"library",
     "description": "marumaru.in api",
     "copyright": "Copyleft LGPLv2 2017, ZHANITEST",
     "license": "LGPL-v2",
