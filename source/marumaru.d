@@ -152,18 +152,37 @@ struct comic{
     link[] links;
 
     /**
+     *  호스팅 URL로 정보 얻기
+     *
+     *  example:
+     *      string[string] r
+     *      writeln(r["TITLE"]~":"~r["INDEX"]);
+     */
+    static string[string] getInfo(string hosting_url){
+        string html = req(hosting_url);
+
+        auto rx_id = re.matchAll(hosting_url, "<div class=\"article-title\" title=\"(.+)\">");
+        auto rx_title = re.matchAll(html, "<span class=\"title-subject\">(.+)</span>");
+        
+        string[string] result;
+        result["INDEX"] = rx_id.front[1];
+        result["TITLE"] = rx_title.front[1];
+        
+        return result;
+    }
+
+    /**
      *  호스팅 URL로 직접 URL 얻기
      */
     static string[] getFileUrl(string hosting_url){
 		string[] urls;
-        string host = hosting_url;
-		string html = req(host);
-        string let = re.matchFirst(host, ctRegex!("[shenyucomicswabrp]+.com"))[0];
+		string html = req(hosting_url);
+        string let = re.matchFirst(hosting_url, ctRegex!("[shenyucomicswabrp]+.com"))[0];
 
 		// 암호 걸린 만화일 경우
 		if(html.indexOf("Protected")>-1){
 			auto res = postContent(
-				host, queryParams("password", "qndxkr", "pass", "qndxkr")
+				hosting_url, queryParams("password", "qndxkr", "pass", "qndxkr")
 			);
 			OutBuffer buf = new OutBuffer();
 			buf.write(res.data);
