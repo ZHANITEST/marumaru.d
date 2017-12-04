@@ -4,6 +4,7 @@
  */
 module marumaru;
 
+import std.uri;
 import std.array;
 import std.stdio;
 import std.file;
@@ -47,7 +48,7 @@ string req(string url){
     rq.addHeaders(
         ["User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW6478) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36"]
     );
-    Response rp = rq.get(url);
+    Response rp = rq.get(encode(url)); // url 인코딩 추가
     return to!string(rp.responseBody);
 }
 
@@ -151,11 +152,11 @@ struct comic{
     link[] links;
 
     /**
-     *  인덱스로 파일 URL 얻기
+     *  호스팅 URL로 직접 URL 얻기
      */
-    string[] getFileUrl(int index){
+    static string[] getFileUrl(string hosting_url){
 		string[] urls;
-        string host = this.links[index].url;
+        string host = hosting_url;
 		string html = req(host);
         string let = re.matchFirst(host, ctRegex!("[shenyucomicswabrp]+.com"))[0];
 
@@ -201,6 +202,13 @@ struct comic{
 		}
 		return urls;
     }
+
+    /**
+     *  인덱스로 파일 URL 얻기
+     */
+    string[] getFileUrl(int index){
+        return this.getFileUrl(this.links[index].url);
+    }
 }
 
 
@@ -220,7 +228,7 @@ unittest{
     auto c = new comicPage(test_id); // 흑백렌즈
     assert(c.html.indexOf("vContent")>0);
 
-    auto guichan = c.getLink();
+    comic guichan = c.getLink();
     assert(guichan.links.length>0);
     assert(guichan.links[0].url=="http://wasabisyrup.com/archives/57Gm5SVLfbk");
 
