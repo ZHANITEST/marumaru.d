@@ -41,12 +41,52 @@ string stripChar( string text, string keyword=" " ){
 }
 
 /**
+ *  HTML코드에서 이미지파일주소만 추출
+ */
+protected static string[] stripFileUrl(string html){
+    string target = html;
+    string[] result = [];
+
+    string[] patthens = [
+        "/storage/gallery/[A-z0-9-]+/[\\S_)(]+.[JjPpEeGg]+",
+        //  \/storage\/gallery\/[A-z0-9-]+\/[\S_)(]+.[JjPpEeGg]+
+        "/storage/gallery/[A-z0-9-]+/[\\S_)(]+ [\\S_)(]+\\.[JjPpEeGg]+",
+        "/storage/gallery/[A-z0-9-]+/[\\S_)( ]+\\.[JjPpEeGg]{3,4}"
+    ];
+
+    foreach(p; patthens){
+        auto r = re.matchAll(html, regex(p));
+        if(r.empty==false){
+            foreach(e; r){
+                writeln(e[0]);
+                result ~= e[0];
+            }
+        }
+        else{
+            writeln("can't match!");
+            File f = File("HTML.txt", "w");
+            f.write(target);
+            f.close();
+        }
+    }
+    writeln(result.length);
+    return result;
+}
+
+/**
  *  리퀘스트 날리기
  */
 string req(string url){
     auto rq = Request();
     rq.addHeaders(
-        ["User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW6478) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36"]
+        [
+            "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Encoding":"gzip, deflate",
+            "Accept-Language":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
+            "Cache-Control":"max-age=0",
+            "Connection":"keep-alive",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0"
+        ]
     );
     Response rp = rq.get(encode(url)); // url 인코딩 추가
     return to!string(rp.responseBody);
@@ -195,29 +235,19 @@ struct comic{
 		foreach(node; nodes){
 			foreach(ab; node.getAttributes()){
 				string v = ab.values[0];
-				if(v.indexOf("/storage/gallery/")>-1){
-                    
+                if(v.indexOf("/storage/gallery/")>-1){
 					urls ~= "http://"~let~v;
 				}
 			}
 		}
 
-		// {임시} 조건 하나 더 검사...
+		// {임시} 조건 하나 더 검사... + 아예 파싱된 게 제로면 다시 따온다
 		//	regex vs indexOf
-		if(	urls[0].indexOf("jpg")<0 && urls[0].indexOf("jpeg")<0 && urls[0].indexOf("JPG")<0 && urls[0].indexOf("JPEG")<0 )
+		if( urls.length==0 || urls[0].indexOf("jpg")<0 && urls[0].indexOf("jpeg")<0 && urls[0].indexOf("JPG")<0 && urls[0].indexOf("JPEG")<0 )
 		{
-			string[] patthens = [
-				"/storage/gallery/[A-z0-9-]+/[\\S_)(]+ [\\S_)(]+\\.[JjPpEeGg]+",
-				"/storage/gallery/[A-z0-9-]+/[\\S_)( ]+\\.[JjPpEeGg]{3,4}"
-			];
-
-			foreach(p; patthens){
-				auto r = re.matchAll(html, regex(p));
-				if(r.empty==false){
-					foreach(e; r)
-						{ urls ~="http://"~let~e[0]; }
-				}
-			}
+            foreach(u; stripFileUrl(html)){
+                urls ~= "http://"~let~u;
+            }
 		}
 		return urls;
     }
@@ -243,16 +273,40 @@ unittest{
       - IMG1
       - IMG2
     */
-    int test_id = 252870;
-    auto c = new comicPage(test_id); // 흑백렌즈
-    assert(c.html.indexOf("vContent")>0);
+
+    // comicpage test
+
+    writeln("===== Function Test =====");
+    string temp = req("http://wasabisyrup.com/archives/57Gm5SVLfbk");
+    assert(temp.indexOf("you have been blocked")==-1);
+    writeln("req Pass!"); 
+    
+
+    writeln("===== ComicPage Test =====");
+    //int test_id = 252870; // 흑백렌즈http://wasabisyrup.com/archives/57Gm5SVLfbk
+    int test_id = 278089; // http://wasabisyrup.com/archives/0fvOcx55kl8
+    auto c = new comicPage(test_id);
+    writeln("Init Pass!"); 
+    
+    assert(c.getTitle()!=""); // getTitle
+    writeln("getTitle Pass!");
 
     comic guichan = c.getLink();
-    assert(guichan.links.length>0);
-    assert(guichan.links[0].url=="http://wasabisyrup.com/archives/57Gm5SVLfbk");
+    assert(guichan.links.length>0); // getLink-2
+    assert(guichan.links[0].url=="http://wasabisyrup.com/archives/0fvOcx55kl8");
+    writeln("getLink-2 Pass!");
 
+    assert(c.html.indexOf("vContent")>0); // innerHTML
+    writeln("c.html.indexOf Pass!");
+
+
+    writeln("===== Comic Test =====");
+    assert(guichan.getFileUrl(0).length!=0);
+    writeln("getFileUrl Pass!");
+    /*
     assert(
         guichan.getFileUrl(0)[0] == 
-        "http://wasabisyrup.com/storage/gallery/57Gm5SVLfbk/P0134_KF975Wxo07A.jpg"
-    );
+        "http://wasabisyrup.com/storage/gallery/57Gm5SVLfbk/P0134_KF975Wxo07A.jpg",
+        "lose"
+    );*/
 }
