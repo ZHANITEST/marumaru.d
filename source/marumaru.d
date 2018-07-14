@@ -78,16 +78,26 @@ protected static string[] stripFileUrl(string html){
  */
 string req(string url){
     auto rq = Request();
+	
+    // 인증서 추가
+	rq.sslSetCaCert("cacert.pem");
+
+    /*
+    debug{
+        rq.verbosity=3; // for debugging
+    }*/
+
     rq.addHeaders(
         [
             "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Encoding":"gzip, deflate",
+            "Accept-Encoding":"gzip, deflate, br",
             "Accept-Language":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
             "Cache-Control":"max-age=0",
             "Connection":"keep-alive",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0"
         ]
     );
+
     Response rp = rq.get(encode(url)); // url 인코딩 추가
     return to!string(rp.responseBody);
 }
@@ -162,7 +172,11 @@ class comicPage{
 				    
                     link l;
                     l.title = removeTag(dom.getInner(nd));
-                    l.url = value;
+                    
+                    // ㅇ 18.07.14 날짜기준:
+                    //   호스팅페이지-shencomics가 모두 wasabisyrup로 리다이렉트됨
+                    //   어차피 리다이렉트 되는거라 회차 url를 그냥 replace 처리 
+                    l.url = value.replace("shencomics", "wasabisyrup"); value = null;
                     list ~= l;
                 }
 
@@ -276,37 +290,78 @@ unittest{
 
     // comicpage test
 
+    // req함수 테스트
     writeln("===== Function Test =====");
     string temp = req("http://wasabisyrup.com/archives/57Gm5SVLfbk");
     assert(temp.indexOf("you have been blocked")==-1);
     writeln("req Pass!"); 
     
-
+    // comicPage클래스 -> 생성자 테스트
     writeln("===== ComicPage Test =====");
     //int test_id = 252870; // 흑백렌즈http://wasabisyrup.com/archives/57Gm5SVLfbk
     int test_id = 278089; // http://wasabisyrup.com/archives/0fvOcx55kl8
     auto c = new comicPage(test_id);
     writeln("Init Pass!"); 
     
+    // comicPage클래스 -> 타이틀얻기 테스트(getTitle)
     assert(c.getTitle()!=""); // getTitle
     writeln("getTitle Pass!");
 
+    // comicPage클래스 -> 만화 회차링크 얻기 테스트(getLink)
     comic guichan = c.getLink();
     assert(guichan.links.length>0); // getLink-2
     assert(guichan.links[0].url=="http://wasabisyrup.com/archives/0fvOcx55kl8");
     writeln("getLink-2 Pass!");
 
+    // 얻은 만화링크에서 html를 추출(파싱할 수 있는 결과값인지 여부) 테스트 
     assert(c.html.indexOf("vContent")>0); // innerHTML
     writeln("c.html.indexOf Pass!");
 
-
+    // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출 테스트
     writeln("===== Comic Test =====");
     assert(guichan.getFileUrl(0).length!=0);
     writeln("getFileUrl Pass!");
-    /*
+    
+    // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출의 검증 테스트
     assert(
         guichan.getFileUrl(0)[0] == 
-        "http://wasabisyrup.com/storage/gallery/57Gm5SVLfbk/P0134_KF975Wxo07A.jpg",
-        "lose"
-    );*/
+        "http://wasabisyrup.com/storage/gallery/0fvOcx55kl8/m_pvBgjwoCYcs.jpeg"
+    );
+
+    // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출 후 다운로드
+    static import uri = std.uri;
+    auto rq = Request();
+    rq.verbosity = 3;
+    rq.sslSetCaCert("cacert.pem");
+
+    rq.addHeaders(
+        [
+            "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Encoding":"gzip, deflate",
+            "Accept-Language":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
+            "Connection":"keep-alive",
+            //"Cookie":"__cfduid=df7e78bdf99b04142e8ea2098edd4422d1531538403; PHPSESSID=c4029010882f0a9b651040dc84a62308",
+            "Host":"wasabisyrup.com",
+            "Referer":guichan.links[0].url,
+            "Upgrade-Insecure-Requests":"1",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0"
+        ]
+    );
+    writeln("guichan.links[0].url = "~guichan.links[0].url);
+
+    string encoded_url = uri.encode(
+       guichan.getFileUrl(0)[0]
+    );
+
+    auto ds = rq.get(encoded_url);
+
+    writeln("download file... : "~encoded_url~ " to ./test.jpeg ...");
+
+
+    File f = File("test.jpeg", "wb"); // do not forget to use both "w" and "b" modes when open file.
+    f.rawWrite(ds.responseBody.data);
+    f.close();
+
+    writeln("\n\n\n"); // dub test로 유닛테스트 실행/종료 시 보기 좋게 하기 위해.
+
 }
