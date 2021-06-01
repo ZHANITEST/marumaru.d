@@ -1,0 +1,1721 @@
+<!doctype html>
+<html lang="ko" id="no-fouc">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="title" content="잘 자, 푼푼 1-1권" />
+<meta name="subject" content="잘 자, 푼푼 1-1권" />
+<meta name="publisher" content="MARUMARU - 마루마루" />
+<meta name="author" content="운영매니저" />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="22739, 만화, 만화(썸네일), MARUMARU - 마루마루" />
+<meta name="description" content="잘 자, 푼푼 1-1권" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:title" content="잘 자, 푼푼 1-1권" />
+<meta property="og:site_name" content="MARUMARU - 마루마루" />
+<meta property="og:author" content="운영매니저" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://marumaru.cloud/data/file/cmoic/2728278670_vuaOgEZC_e6b9dc9c126f1dbb6184fd2d44de7c234821d27a.jpg" />
+<meta property="og:description" content="잘 자, 푼푼 1-1권" />
+<meta property="og:url" content="https://marumaru.cloud/bbs/cmoic/22739/35937" />
+<link rel="image_src" href="https://marumaru.cloud/data/file/cmoic/2728278670_vuaOgEZC_e6b9dc9c126f1dbb6184fd2d44de7c234821d27a.jpg" />
+<link rel="canonical" href="https://marumaru.cloud/bbs/cmoic/22739/35937" />
+<title>MARUMARU - 마루마루 - 잘 자, 푼푼 1-1권</title>
+<link rel="stylesheet" href="https://marumaru.cloud/css/default.css?ver=200318">
+<link rel="stylesheet" href="https://marumaru.cloud/css/apms.css?ver=200318">
+
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/assets/bs3/css/bootstrap.min.css?ver=200318" type="text/css" class="thema-mode">
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/colorset/Basic/colorset.css?ver=200318"
+ type="text/css" class="thema-colorset">
+<link rel="stylesheet" href="https://marumaru.cloud/skin/board/basic/style.css?ver=200318" >
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/widget/basic-outlogin/widget.css?ver=200318">
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/widget/basic-post-list2/widget.css?ver=200318">
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/widget/basic-sidebar/widget.css?ver=200318">
+<link rel="stylesheet" href="https://marumaru.cloud/css/level/basic.css?ver=200318">
+<link rel="apple-touch-icon" href="/apple-touch-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-iphone4.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-ipad-retina.png" />
+<!--[if lte IE 8]>
+<script src="https://marumaru.cloud/js/html5.js"></script>
+<![endif]-->
+<script>
+// 자바스크립트에서 사용하는 전역변수 선언
+var g5_url       = "https://marumaru.cloud";
+var g5_bbs_url   = "https://marumaru.cloud/bbs";
+var g5_is_member = "";
+var g5_is_admin  = "";
+var g5_is_mobile = "";
+var g5_bo_table  = "cmoic";
+var g5_sca       = "22739";
+var g5_pim       = "";
+var g5_editor    = "";
+var g5_responsive    = "1";
+var g5_cookie_domain = "";
+</script>
+<script src="https://marumaru.cloud/js/jquery-1.11.3.min.js"></script>
+<script src="https://marumaru.cloud/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://marumaru.cloud/lang/korean/lang.js?ver=200318"></script>
+<script src="https://marumaru.cloud/js/common.js?ver=200318"></script>
+<script src="https://marumaru.cloud/js/wrest.js?ver=200318"></script>
+<script src="https://marumaru.cloud/js/placeholders.min.js"></script>
+<script src="https://marumaru.cloud/js/apms.js?ver=200318"></script>
+
+<script src="https://marumaru.cloud/js/getList.js?ver=200318"></script>
+<link rel="stylesheet" href="https://marumaru.cloud/js/font-awesome/css/font-awesome.min.css">
+<script>
+function printtList(page,type=''){
+    let data;
+
+    if(!page) page = 1;
+
+    try{    
+        data = $.ajax({
+            url: '../getListCategory.php',
+            type: 'POST',
+            data: { 'page': page, 'type' : type}
+        });
+        data = JSON.parse(data) || false;
+  
+    }catch(e){
+        console.log(e);
+    }
+  return data;
+}
+</script>
+<link rel="shortcut icon" href="https://marumaru.cloud/img/favicon.ico">
+<style>
+	 #no-fouc { opacity: 1; }
+</style>
+<script>
+
+	$(document).ready(function(){
+		$("#no-fouc").delay(250).animate({"opacity": "1"}, 250);
+	})
+
+</script>
+<script src="https://marumaru.cloud/plugin/apms/js/jquery.mobile.swipe.min.js"></script>
+</head>
+<body class="responsive is-pc">
+<style>
+		.at-container {max-width:1200px;}
+	.no-responsive .wrapper, .no-responsive .at-container-wide { min-width:1200px; }
+	.no-responsive .boxed.wrapper, .no-responsive .at-container { width:1200px; }
+	.at-menu .nav-height { height:44px; line-height:44px !important; }
+	.pc-menu, .pc-menu .nav-full-back, .pc-menu .nav-full-height { height:44px; }
+	.pc-menu .nav-top.nav-float .menu-a { padding:0px 25px; }
+	.pc-menu .nav-top.nav-float .sub-1div::before { left: 25px; }
+	.pc-menu .subm-w { width:170px; }
+	@media all and (min-width:1200px) {
+		.responsive .boxed.wrapper { max-width:1200px; }
+	}
+</style>
+
+<div id="thema_wrapper" class="wrapper  ko">
+<style>
+@media (max-width: 600px) {
+.banner_m a img{
+	height:65px;
+}
+}
+</style>
+	<!-- PC Header -->
+	<header class="pc-header">
+		<div class="at-container">
+			<!-- PC Logo -->
+			<div class="header-logo">
+				<a href="https://marumaru.cloud">
+					<img src="https://marumaru.cloud/img/logo2.png">
+				</a>
+			</div>
+			<!-- PC Search -->
+			<div class="header-search">
+			<div class="registerform">
+									<a href="https://marumaru.cloud/bbs/register.php">회원가입</a> |
+					<a href="https://marumaru.cloud/bbs/login.php">로그인</a>
+								</div>
+				<form name="tsearch" method="get" onsubmit="return tsearch_submit(this);" role="form" class="form">
+				<input type="hidden" name="url"	value="https://marumaru.cloud/bbs/search.php">
+					<div class="input-group input-group-sm">
+						<input type="text" name="stx" class="form-control input-sm" value="" placeholder="만화검색">
+						<span class="input-group-btn">
+							<button type="submit" class="btn btn-sm"><i class="fa fa-search fa-lg"></i></button>
+						</span>
+					</div>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</header>
+
+	<!-- Mobile Header -->
+	<header class="m-header">
+		<div class="at-container">
+			<div class="header-wrap">
+
+				<div class="header-logo en" style="    background: #ff940e;
+		text-align: left;
+		padding-left: 3px;">
+					<!-- Mobile Logo -->
+					<a href="https://marumaru.cloud" style="    font-size: 2.5rem;
+		font-family: 돋움;     text-shadow: 2px 2px #000000;">
+						MARUMARU
+					</a>
+				</div>
+
+				<div class="header-icon" style="    position: absolute;
+		right: 45px;">
+				<a  onclick="alert('로그인을 하셔야 북마크 기능이 가능합니다.'); return false; "  data-toggle="tooltip" data-placement="top" data-html="true">
+								<i class="fa fa-bookmark"></i>
+					</a>
+					</div>
+
+				<div class="header-icon" style="    position: absolute;
+		right: 0px;">
+					<a href="https://marumaru.cloud/bbs/login.php">
+						<i class="fa fa-user"></i>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+	</header>
+	<div class="header-searchbar m-header">
+	<form name="tsearch" method="get" onsubmit="return tsearch_submit(this);" role="form" class="form" style="width: 70%;
+		display: inline-block;">
+	<button type="submit" class="btn btn-sm" style="    float: right;
+		width: 10%;
+		/* position: absolute; */
+		background: transparent;"><i class="fa fa-search fa-lg"></i></button>
+				<input type="hidden" name="url" value="/bbs/search.php">
+
+						<input type="text" style="width: 90%;border-radius: 30px !important;text-align: center;font-weight: bold;"name="stx" class="form-control input-sm" value="" placeholder="만화검색">
+
+
+
+
+				</form>
+
+	</div>
+	<!-- Menu -->
+	<nav class="at-menu">
+		<!-- PC Menu -->
+		<div class="pc-menu">
+		<div class="nav-right nav-rw nav-height" style="background: #767676;">
+					<ul>
+
+
+						<!-- <li>
+							<a href="javascript:;" onclick="sidebar_open('sidebar-search');" data-original-title="<nobr>검색</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+								<i class="fa fa-search"></i>
+							</a>
+						</li>
+						<li class="menu-all-icon" data-original-title="<nobr>전체메뉴</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+							<a href="javascript:;" data-toggle="collapse" data-target="#menu-all">
+								<i class="fa fa-th"></i>
+							</a>
+						</li> -->
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			
+
+	<div class="nav-visible">
+		<div class="at-container">
+			<div class="nav-top nav-both nav-slide">
+				<ul class="menu-ul">
+				<li class="menu-li nav-home off">
+					<a class="menu-a nav-height" href="https://marumaru.cloud">
+						HOME
+					</a>
+				</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="/bbs/board.php?bo_table=update">
+							업데이트													</a>
+											</li>
+									<li class="menu-li on">
+						<a class="menu-a nav-height" href="/bbs/page.php?hid=comicC">
+							만화(썸네일)													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://jusoshow.me/toonsarang" target="_blank">
+							웹툰													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://jusoshow.me/avpop" target="_blank">
+							성인													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="http://win-마루마루.com/" target="_blank">
+							보증토토													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="/bbs/board.php?bo_table=webcomic">
+							웹코믹													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="/bbs/board.php?bo_table=humor">
+							유머													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://marumaru.cloud/bbs/board.php?bo_table=free">
+							게시판													</a>
+													<div class="sub-slide sub-1div">
+								<ul class="sub-1dul">
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=free" class="sub-1da">
+											자유게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=hobby" class="sub-1da">
+											취미게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=infor" class="sub-1da">
+											지식붕게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=original" class="sub-1da">
+											원본게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=reserve" class="sub-1da">
+											역식자게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=review" class="sub-1da">
+											감상/리뷰																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=notice" class="sub-1da">
+											공지사항																					</a>
+																			</li>
+																</ul>
+							</div>
+											</li>
+								<!-- 우측공간 확보용 -->
+				<li class="menu-li nav-rw" style="    text-align: right;">
+			
+							<a style="    color: #fff;
+    right: 0px;
+	font-size: 1.7rem;
+    line-height: 45px;"onclick="alert('로그인을 하셔야 북마크 기능이 가능합니다.'); return false; " data-original-title="<nobr>북마크</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+								<i class="fa fa-bookmark"></i>
+				</a></li>
+				</ul>
+			</div><!-- .nav-top -->
+		</div>	<!-- .nav-container -->
+	</div><!-- .nav-visible -->
+
+			<div class="clearfix"></div>
+			<div class="nav-back"></div>
+		</div><!-- .pc-menu -->
+
+		<!-- PC All Menu -->
+		<div class="pc-menu-all">
+			<div id="menu-all" class="collapse">
+				<div class="at-container table-responsive">
+					<table class="table">
+					<tr>
+											<td class="off">
+							<a class="menu-a" href="/bbs/board.php?bo_table=update">
+								업데이트															</a>
+													</td>
+											<td class="on">
+							<a class="menu-a" href="/bbs/page.php?hid=comicC">
+								만화(썸네일)															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="https://jusoshow.me/toonsarang" target="_blank">
+								웹툰															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="https://jusoshow.me/avpop" target="_blank">
+								성인															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="http://win-마루마루.com/" target="_blank">
+								보증토토															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="/bbs/board.php?bo_table=webcomic">
+								웹코믹															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="/bbs/board.php?bo_table=humor">
+								유머															</a>
+													</td>
+					</tr><tr>
+						<td class="off">
+							<a class="menu-a" href="https://marumaru.cloud/bbs/board.php?bo_table=free">
+								게시판															</a>
+															<div class="sub-1div">
+									<ul class="sub-1dul">
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=free" class="sub-1da">
+												자유게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=hobby" class="sub-1da">
+												취미게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=infor" class="sub-1da">
+												지식붕게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=original" class="sub-1da">
+												원본게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=reserve" class="sub-1da">
+												역식자게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=review" class="sub-1da">
+												감상/리뷰																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=notice" class="sub-1da">
+												공지사항																							</a>
+										</li>
+																		</ul>
+								</div>
+													</td>
+										</tr>
+					</table>
+					<div class="menu-all-btn">
+						<div class="btn-group">
+							<a class="btn btn-lightgray" href="https://marumaru.cloud"><i class="fa fa-home"></i></a>
+							<a href="javascript:;" class="btn btn-lightgray" data-toggle="collapse" data-target="#menu-all"><i class="fa fa-times"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- .pc-menu-all -->
+
+		<!-- Mobile Menu -->
+		<div class="m-menu">
+			<div class="m-wrap">
+	<div class="at-container">
+		<div class="m-table en">
+
+						<div class="m-list">
+				<div  id="mobile_nav">
+					<ul class="clearfix navMaruMaru">
+
+							
+							<li class="s">
+							<a href="/" style="color: #464646;">
+								홈				 										</a>
+						</li>
+		
+						<li class="">
+							<a href="/bbs/board.php?bo_table=update">
+								만화업데이트															</a>
+						</li>
+						<li class="">
+							<a href="/bbs/page.php?hid=comicC">
+								만화(썸네일)															</a>
+						</li>
+											<li class="">
+							<a href="https://jusoshow.me/toonsarang" target="_blank">
+								웹툰															</a>
+						</li>
+											<li class="">
+							<a href="https://jusoshow.me/avpop" target="_blank">
+								성인															</a>
+						</li>
+											<li class="">
+							<a href="http://ov-마루마루.com/" target="_blank">
+								보증토토															</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=webcomic">
+								웹코믹															</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=humor">
+								유머게시판															</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=reserve">
+								역식자게시판														</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=original">
+								원본게시판														</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=infor">
+								지식붕게시판														</a>
+						</li>	
+						<li class="">
+							<a href="/bbs/board.php?bo_table=hobby">
+								취미게시판														</a>
+						</li>				
+						<li class="">
+							<a href="/bbs/board.php?bo_table=review">
+								감상/리뷰														</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=free">
+								자유게시판														</a>
+						</li>		
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+		</div><!-- .m-menu -->
+	</nav><!-- .at-menu -->
+
+	<div class="clearfix"></div>
+	<style>
+	.w_banner {
+		margin: 0 0 3px 0 !important;
+}
+.banner_m {
+		padding: 1px 1px 0 0 !important;
+}
+.at-col{
+	padding:0px !important;
+}
+
+</style>
+	<div class="at-body">
+					<div class="at-container">
+							<div class="row at-row">
+				<div class="row w_banner" style="   padding-top: 0px;    padding-bottom: 0px;">
+					<div class="col-xs-12 banner_m" style="padding:0;"><a href="https://betmovekr.com/affiliates/?btag=459070" target="_blank"><img src="https://i.imgur.com/5vlFlbP.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://wbwb7.com" target="_blank"><img src="https://i.imgur.com/kWyXS03.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://bbet2020.com" target="_blank"><img src="https://i.imgur.com/y7pKcLk.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="https://afm88.com" target="_blank"><img src="https://i.imgur.com/UNkIKgY.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="https://afm88.com" target="_blank"><img src="https://i.imgur.com/UNkIKgY.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://tlo-777.com" target="_blank"><img src="https://i.imgur.com/8JPPQw1.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://grs-g2.com" target="_blank"><img src="https://i.imgur.com/f1Sz39r.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://fair-1285.com" target="_blank"><img src="https://i.imgur.com/G9b8K1U.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://www.trra-we.com" target="_blank"><img src="https://i.imgur.com/RlWA3ex.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://po-kk.com/?code=MARU" target="_blank"><img src="https://i.imgur.com/JsQO8yp.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://wb-tt.com" target="_blank"><img src="https://i.imgur.com/WB7EOzV.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://ten-1056.com" target="_blank"><img src="https://i.imgur.com/bXjLEEz.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://sun-4353.com/?regcode=355" target="_blank"><img src="https://i.imgur.com/mRYyhcb.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://mst-777.com" target="_blank"><img src="https://i.imgur.com/yW1DOo2.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://bit.ly/3q1VRvD" target="_blank"><img src="https://i.imgur.com/dg44mfY.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://kor-9630.com" target="_blank"><img src="https://i.imgur.com/1gsMpDW.gif" alt="" width="100%" ></a></div>					</div>
+					<div class="col-md-9 at-col at-main" style="    padding: 0px !important;">
+					
+							
+ 
+
+<style>
+.view-content br{
+	display:none;
+}
+#no-fouc { opacity: 0; }
+
+.hidden-sm { display:block !important; }
+.at-side{
+	padding-left: 5px !important;
+}
+
+.viewActBottom{position: fixed; display:block;
+		z-index: 999999999;
+		bottom: 0;
+		padding: 0.6em 0;
+		width:1200px;
+		text-align: center;
+		background-color: rgba(0,0,0,0.7);}
+.viewAct{display:inline-block;margin:0 0.4em;padding:0.4em;background-color:rgba(0,0,0,0.6)}
+.viewActIcon{display:block;width:3.2em;height:3.2em;cursor:pointer;    background: black;}
+.viewActIcon:hover{background-color:#000}
+.viewActFixed{position:fixed;padding:1em;bottom:5em;opacity:0.7}
+.wrapper{ padding:0px;}
+.view-wrap img{
+	max-height:100vh;
+	width:50%;
+	}
+@media (max-width: 700px)
+{
+	.viewActBottom{ width:100%; }
+	.at-container {padding: 0px !important;}
+}
+
+@media all and (max-width: 600px)
+{
+	.hidden-sm { display:none !important; }
+	.viewActIcon{display:block;width:2em;height:2em;cursor:pointer}
+	.view-wrap img{
+	width:80%;
+	}
+}
+
+
+.col-md-9{
+	padding: 0px !important;
+
+}
+
+.at-main{
+	float: left !important;
+}
+.btn-danger.dropdown-toggle {
+		background-color: #ff3547 !important;
+}
+.dropdown-item {
+		display: block;
+		width: 100%;
+		padding: .25rem 1.5rem;
+		clear: both;
+		font-weight: 400;
+		color: #212529;
+		text-align: inherit;
+		white-space: nowrap;
+		background-color: transparent;
+		border: 0;
+}
+
+.col-4 {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		width: 33%;
+		float: left;
+		text-align: center;
+		/* text-align: right; */
+
+}
+
+.viewerbtn{
+	background: black;
+		opacity: 0.7;
+}
+.viewerbtn a{
+	color:#fff;
+	font-weight:bold;
+}
+
+
+.view-wrap.on .view-content{
+	text-align: center;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		justify-content: flex-start;
+		flex-direction: column;
+}
+
+.view-wrap.on {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		-webkit-transition: all .2s;
+		transition: all .2s;
+		z-index: 999;
+		overflow: auto;
+		background: #2e2e2e;
+	overflow-y:hidden;
+}
+
+@media all and (max-width: 600px){
+	.banner_m {
+		margin:0px !important;
+	}
+	.view-good-box {
+			text-align: center;
+		width: 100vw;
+	}
+	.col-12 h1{
+		width:100vw;    line-height: 40px;
+	}
+	.chart{
+				width: 100%;    display: block;
+	}
+	.popular{
+		width: 100%;
+	}
+	canvas{
+		max-width: 100vw !important;
+	}
+	.hit{
+		display:none !important;
+	}
+	.goods{
+		padding-right: 20px;
+	}
+	.view-wrap .view-content{
+
+	}
+}
+
+.bottom-navbar { left:0; position:fixed; bottom:0; background-color:#fff; width:100%; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); z-index: 10; }
+</style>
+
+
+<script>
+	$(window).load(function(){
+
+	window.mobilecheck = function() {
+	var check = false;
+	(function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4))) check = true;})(navigator.userAgent||navigator.vendor||window.opera);
+	return check;
+	};
+
+	var mobilesize = mobilecheck() ? '80%' : '50%';
+	var onyourSession = localStorage.getItem('on');
+
+
+
+	if(onyourSession)
+	{
+			$('.viewer a').addClass('on');
+			$('.viewer a').text('리스트보기');
+			$('.view-wrap').addClass('on');
+			$('.view-wrap  img').css('width', mobilesize);
+			$('#viewActIconZoom').attr('src','');
+	}
+
+
+
+	$('.viewer > a').click(function(){
+		var className = $('.viewer a').attr('class');
+		if(className == 'on'){
+			$('.page-btn').css('display','none');
+			localStorage.removeItem('on');
+			$(".view-wrap img").css("display","flex");
+			$('.view-wrap img').css('width', mobilesize);
+			$('.viewer a').removeClass('on');
+			$('.viewer a').text('뷰어보기');
+			$('.view-wrap').removeClass('on');
+		}else{
+			$(".view-wrap img").css("display","none")
+			$(".view-wrap img").eq(0).css("display","flex")
+			$('.page-btn').css('display','flex');
+			localStorage.setItem('on', true);
+			$('.viewer a').addClass('on');
+			$('.viewer a').text('리스트보기');
+			$('.view-wrap').addClass('on');
+			$('.view-wrap img').css('width', mobilesize);
+			$('#viewActIconZoom').attr('src','');
+		}
+	})
+
+
+	var page=0;
+	var max_page= parseInt($('.view-wrap  img').length);
+
+
+	function goTop(){
+	window.scrollTo(0,0)
+	}
+	function goBottom(){
+		var scrollingElement = (document.scrollingElement || document.body);
+		scrollingElement.scrollTop = scrollingElement.scrollHeight;
+	}
+	function fullscreen(){
+		var className = $('.viewer a').attr('class');
+		if($('#viewActIconZoom').hasClass('fullscreen')){
+			if(className == 'on'){
+			$('.view-wrap  img').css('width', mobilesize);
+			}else{
+				$('.view-wrap   img').css('width', mobilesize);
+			}
+			$('#viewActIconZoom').removeClass('fullscreen');
+			$('#viewActIconZoom').attr('src','');
+		}else{
+		$('.view-wrap   img').css('width', '100%');
+		$('#viewActIconZoom').addClass('fullscreen');
+		$('#viewActIconZoom').attr('src','');
+		}
+	}
+
+
+	function Back(){
+		window.history.back();
+	}
+
+	$('.view-wrap').click(function(){
+		if($('.view-wrap').hasClass('on')){
+			$('.viewActBottom').show();
+		}else{
+			$('.viewActBottom').toggle();
+		}
+	})
+	function on_viewer_left(){
+		if(page<=0) return ;
+		page -- ;
+		$(".viewercount").html((page+1)+"/"+max_page)
+		$(".view-wrap  img").css("display","none")
+		$(".view-wrap  img").eq(page).css("display","block")
+
+	}
+	function requestFullScreen(element) {
+
+	var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
+
+	if (requestMethod) {
+			requestMethod.call(element);
+	} else if (typeof window.ActiveXObject !== "undefined") {
+			var wscript = new ActiveXObject("WScript.Shell");
+			if (wscript !== null) {
+					wscript.SendKeys("{F11}");
+			}
+	}
+}
+
+	function on_viewer_right(){
+		if(page >= max_page-1){
+			return ;
+		};
+		page++;
+		$('.page-btn.left').css('display','flex');
+		$(".viewercount").html((page+1)+"/"+max_page)
+		$(".view-wrap  img").css("display","none")
+		$(".view-wrap  img").eq(page).css("display","flex")
+
+	}
+
+	$(document).keydown(function(e){
+		if($('.view-wrap').hasClass('on'))
+		{
+		if (e.keyCode == 37) {
+			on_viewer_left();
+		}
+		}
+	});
+
+	$(document).keydown(function(e){
+		if($('.view-wrap').hasClass('on')){
+		if (e.keyCode == 39) {
+			on_viewer_right();
+		}
+	}
+	});
+
+	$(document).keydown(function(e){
+		if (e.keyCode == 113) {
+
+			var elem = document.body;
+			requestFullScreen(elem);
+		}
+	});
+
+			$(document).keydown(function(e){
+		if (e.keyCode == 27) {
+			$('.page-btn').css('display','none');
+			$(".view-wrap  img").css("display","flex");
+			$('.view-wrap  img').css('width', '50%');
+			$('.viewer a').removeClass('on');
+			$('.viewer a').text('뷰어보기');
+			$('.view-wrap').removeClass('on');
+			localStorage.removeItem('on');
+		}
+	});
+
+
+	$(".view-wrap  img").eq(0).css("display","flex");
+
+	$('.page-btn.right').click(function(){
+		on_viewer_right();
+	})
+
+	$('.page-btn.left').click(function(){
+		on_viewer_left();
+	})
+
+	$('.viewActZoom').click(function(){
+		fullscreen();
+	})
+
+	$('.viewAct.Top').click(function(){
+		goTop();
+	})
+	$('.viewAct.Bottom').click(function(){
+		goBottom();
+	})
+})
+</script>
+<script src="https://marumaru.cloud/js/viewimageresize.js"></script>
+
+<div class="view-wrap">
+<div class="col-12" style="    border-top: 2px solid #505050;
+		background-color: #fbfbfb;">
+	
+
+	<h1 class="viewercount pull-left"></h1>
+	<h1 style="line-height:50px; margin:0px;overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;">
+	잘 자, 푼푼 1-1권
+	<div class="popular pull-right hit" style="    display: inline-block;
+		font-size: 13px;
+		vertical-align: top;
+		/* font-weight: bold; */">인기 : 2,086	</div>
+
+	<div class="popular pull-right goods" style="    display: inline-block;
+
+		font-size: 13px;
+		vertical-align: top;
+		/* font-weight: bold; */">
+
+	<select class="chart" style="    vertical-align: unset;
+		font-size: 15px;
+		font-weight: normal;color: black;">
+		<option value="36359" >잘 자, 푼푼 13-3권</option>
+		<option value="36341" >잘 자, 푼푼 13-2권</option>
+		<option value="36328" >잘 자, 푼푼 13-1권</option>
+		<option value="36316" >잘 자, 푼푼 12-3권</option>
+		<option value="36308" >잘 자, 푼푼 12-2권</option>
+		<option value="36300" >잘 자, 푼푼 12-1권</option>
+		<option value="36290" >잘 자, 푼푼 11-2권</option>
+		<option value="36282" >잘 자, 푼푼 11-1권</option>
+		<option value="36275" >잘 자, 푼푼 10-2권</option>
+		<option value="36267" >잘 자, 푼푼 10-1권</option>
+		<option value="36258" >잘 자, 푼푼 9-2권</option>
+		<option value="36226" >잘 자, 푼푼 9-1권</option>
+		<option value="36196" >잘 자, 푼푼 8-2권</option>
+		<option value="36164" >잘 자, 푼푼 8-1권</option>
+		<option value="36141" >잘 자, 푼푼 7-2권</option>
+		<option value="36121" >잘 자, 푼푼 7-1권</option>
+		<option value="36097" >잘 자, 푼푼 6-2권</option>
+		<option value="36067" >잘 자, 푼푼 6-1권</option>
+		<option value="36057" >잘 자, 푼푼 5-2권</option>
+		<option value="36055" >잘 자, 푼푼 5-1권</option>
+		<option value="36052" >잘 자, 푼푼 4-2권</option>
+		<option value="36046" >잘 자, 푼푼 4-1권</option>
+		<option value="36026" >잘 자, 푼푼 3-2권</option>
+		<option value="36000" >잘 자, 푼푼 3-1권</option>
+		<option value="35975" >잘 자, 푼푼 2-2권</option>
+		<option value="35962" >잘 자, 푼푼 2-1권</option>
+		<option value="35947" >잘 자, 푼푼 1-2권</option>
+		<option value="35937" selected>잘 자, 푼푼 1-1권</option>
+		<option value="" ></option>
+				</select>
+					<a class="" style="   font-size: 20px;" href="https://marumaru.cloud/bbs/cmoic/22739/35947" title="다음보기">
+	<i class="chapter_prev fa fa-chevron-circle-right"></i>
+	</a>
+		<a style="" href="/bbs/cmoic/22739/35937" class="btn btn-black btn-sm"><i class="fa fa-book"></i> <span>첫화보기</span></a>
+	<a href="https://marumaru.cloud/bbs/cmoic/22739" class="btn btn-black btn-sm"><i class="fa fa-align-justify"></i> <span>전편보기</span></a>
+	</div>
+	</h1>
+
+	<div class="viewer " style="    font-size: 15px;
+		/* font-weight: bold; */
+		padding: 5px 10px;
+		/* border-radius: 5px; */
+		background-color: #fbfbfb;
+		color: black;
+		cursor: pointer; border:0px;border-top: 1px solid #d2d2d2;border-bottom: 1px solid #d2d2d2;
+		text-align: center;">
+			<a class='' style="color:black;">뷰어로보기</a>
+	</div>
+	</div>
+
+<div style="margin-top:10px">
+	<div class="row w_banner" style="padding-left:0;padding-right:0">
+		<div class="col-md-6 col-sm-6 col-xs-12 banner_m " style="margin-left:25%"><a href="http://bit.ly/38a4ETn" target="_blank"><img src="https://i.imgur.com/InT2A7C.gif" alt="" width="100%" title="" style="padding: 0px;
+		display: block;
+		width: 100% !important;
+		height: auto !important;"></a>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+	
+<div class="view-img">
+<img src="https://marumaru.cloud/data/file/cmoic/2728278670_vuaOgEZC_e6b9dc9c126f1dbb6184fd2d44de7c234821d27a.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_EFgmBJoT_29396fd6253d6d315cc49814c60d0c08a730f617.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_5qhQzEOo_dfe2d875e806900133ed25ad10f80cc99e2b337a.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_GPXCBLxH_5a9b30e4e227e1f96fc1727cb2899a199b099e1b.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_6uTqL9fz_0ffc2dd2c502c448f2ad1f3d0699e10367e30506.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_pZVj5scT_3a1b3748f52b2a9df542a43dfcdac2b7640a116d.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_WqDc3SV8_46f3a1e770260b74fbfdfa53bfd774194311e64a.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_R04TjECn_b6d4c6d249d12d4707f8dafd168c8b4bf29335f0.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_gkY3y6cX_6cd79314e5c097bdb4d0ba78109e0b07003e7a0c.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_ObIuAUhd_21be1538b931a097df979f049c59ca28aa1abec6.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_hx76CXuR_85d2f2a6c0b339651754b145348f2623c167277b.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_rjgEfd24_9e0b76ff5320a5aa1180ef6c6b2b7594e8599838.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_RhYSyust_d9e3c7c7db7ad85fa64eb6be5c00adc3b8c49df4.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_dmnXwFM6_361cb6ffd70a9e6fa9f31bf8aea795d22b634aba.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_zFpORqjA_394eaf973477a77f42f155c4e3d23336b20afbcc.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_MVbKzLES_d24f1ac9e7832771759d07f9781f090e5db63811.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_uvVQqba1_607fe845b41829ea0c6f50662b3c1da078865d55.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_Nq8O6xYm_82dfad11128b4af6ea0fef46b78106cba2de3e4f.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_xGJn29HE_c1307735a1b93d014f9addcdf9accc799cf83fc0.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_vA2joHD5_e4c98d79385be3366f7f347e56e19b137324a0e7.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_b1F6aodh_729d85ce5c56f42aeb3699550fa25125f34c6cd5.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_rpFY2TLc_12d6cbc611102d2d41b824180d7d12a6bfb92651.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_L76kEfD0_653acea2a5e7881a3a63953ddb59decea6a0bcbc.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_NOYvzUbg_e9d1f077d002cbd83bb1301d0184306094a834eb.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_MibS1YVa_122c87ab5b0f7eca90db1e830d59734728296555.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_O9ltExeh_e634c9c954b17002286074405fd91fc0f9c1aae2.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_4fhlc8ZW_51d1f3af6cd2d9b3e8c3e8221da687128be375ab.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_MtCqkL9y_8662bb9ae516b416c5f890e1c1fe95d830477a12.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_bNpU57iP_a2ebd4d8de86f0088cdb343c39ce8b8c73066743.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_fcYrsuEp_551bfe898c3a0cbcaccd6ca3b10d1e6eecf81824.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_TyU3pBHc_5ff58a93a5b9ac14c3d5d1bf395d6ecee2adb257.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_Qw6pTtZe_35622d827794a50937e67ec85ad7306a51dd7f9a.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_qw8Zlsxd_ed26baf9f88077c0f93cd294d9bbbe60550895e7.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_wCTcnP9X_37e99f2cacb42fde83ea0cb6fdc1311fd9b251b0.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_Z5K0hgzC_54b9996a7bfd082229ee785f3fe47ccf38fa9e02.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_G12T7CJp_00155d5fbb9cbac5203495e707effb6b2c2e4460.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_12uBM3xJ_b3389e4d6aadfaeea14020beaf7710e863a9a785.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_MuVn6B1U_f9ae4493665b4775999be67406aed401bb574724.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_akR4r56L_531439228381a82ee4001cddfb1f91d0cf23f117.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_hYOZK1og_5ce1f890f21aff149f37184690a46e3e00b33ce7.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_BdPQZOo6_7a1ba5fe3868caa6dc2be5eedfeb83cc2b9de8a1.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_B9v4W1GS_65c78f9634dab327f5bd1cc2669a458a3d49cf1b.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_6PhT3ReY_fe250fdbaf654ac41bcfbb7feecde262060cfe0b.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_jbfOHUXq_8f704f34ab96aec02ba00c727216b8f5f2becaa0.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_COBhMul3_d0a6ffd4bae76811b00bd1839cd4f8882d19cc68.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_PcwWzLXj_3e4908cab21e5d7ab2ad0ac37da44ee4791e7aa7.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_8eoTGMZS_d71c390b9a5910ae451d92fb76f8e546e2d38ebc.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_OTjDd7Sr_2fdc45dd0ac4b2f6ec2487a8c7e272124249f17b.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_uF0jwLqZ_07604eb4e78688874df920488583d51ed686368c.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_ACakVEKo_d3b8cdf907bfe2e5e230d3df2749438e5fa0bc62.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_0qbenfPr_f1a11d64d42884207cac73b111e298f0e1e740a7.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_NnRVuxfi_93943ad1f773c4541644c647a89f027bd8ca7694.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_oi9z2jNF_479f943ac0b79f51ff8fd986da03c307f46bbe99.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_l4xkH3BQ_4f75af5e669e137cd1bf446b6986583b95551a16.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_gIlxP6qE_689de1151cc95f1aaca2ceecf1affa68e8282a14.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_XHj7lFbf_8542236e814c3583c66c7fa91c596f3a3044d7c0.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_dqY6rt4p_cb6bec7bd2e820672135aa70d8db39d85f8f7817.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_zilYTa6s_09c35b6ed1787434931c2dd90a3f48f7d8790fe0.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_23euNUwj_339bb4c8c58736dcd28e79f34e97fa7bb2dfc3ba.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_PqSkxOML_7ea3093298911ed9acae1e5d0b6fe0ac353764ff.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_J7GzaoOU_a906a9e33802489f111dc29a2d41fb97fd366575.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_0B9Pv7NY_f1ba6cd821bac70db15c0fbd7d7b9915666a3db1.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_yeatupTM_d41197f6d384cab485dcffdc99efc438f6e4bc56.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_ISBwM6dC_49c3acb78c46b992df702860bca979163676dd21.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_0cxSkM2y_4643b9833c1725c58d5d1fb3f6616c8357c1fad4.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_gbkdWfV0_2485027239b23690dab2c99ad38f19b0e45ac0ef.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_b8CM37RJ_c901f4dd0e0735a6a915ca37669e1d3cfcc55da5.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_0CDlTbZk_3b34e6d2ff1aaa47c7ead42f548624b677046855.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_oG2h8iZx_6ab6b76ee40ba807a22abb0816462f41a71c212d.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_gmNao15K_1007554fa4a42278e7aae3c29417f161de596a2f.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_YnUaVcZ0_1a79c4d648c148d8452188445a50596c1397547f.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_6Jm2fQuI_6927235819c4f9b3d8e4999da15655a09d98d45c.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_6dW8ZznX_4df13cc84a27a53519019d9a96a60b5ad14f7724.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_CvHZqVO7_f498187137daa79788ba4db344f1c54485c5f799.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_zsCEnY6w_bee60451e37422fd10cb86f60980f24b78a730af.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_QzaSk7Xv_cb9fcce08fd4972933eaa4585dbaafad80099796.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_l7HuwT5K_8a6ddb13182417e75ccc202dcff9a3f47359cf16.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_TIEKwVAU_57f71a04153830fe65a6e2089c63230e175666d5.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_bC6o7x2z_63f14363760af95bae8ee4338911a122d479399b.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_s0OEZaP8_6e45be4af7743e3f8816a4108cb0e2e2cb299d7b.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_AcJ41kTU_c1fcc803b9aa11579fb054b462f1dbe6d968d7d5.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_q7rd8pXL_a3e610a497920720af5b272d7b77497b58e3031f.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_OarBQ59Z_a10d905982b2d00e996e1cd331e54f20f40fffd9.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_vUAPgCoJ_2d5e8d548cd5756f0e6f181e73851de8a8350d42.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_WXbSGLeP_6aa56fef90933cd3ec292915e993ad2eecd9db2b.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_KdVuRgMI_7e5630aa5b614c15c4a3744567ef097cb29bceaf.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_kpQyPZ45_f0fc3af759b7b942553d261043c43a587bdb2f34.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_V9l5hpFo_6a59683a7e96b7a416f2827bcf6cf4422b1ad58e.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_97BoPk40_b5250c0010991d8459f72500177284b8402472ac.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_eUpozVQX_168cdc41087188e467254e6965a0ae3ac720e590.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_quAoLMPd_04efdcc6a275d6a5850ab4362abe4c5447a19f23.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_zvUedYu5_52c31e1f0dd4981728402ab6d1398359d3784b91.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_JfZrhkO9_64eeb7d37b0a92c99a79bc03914c930f8857c56c.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_SYaUTbyv_2ac697859c6866d7f35026b00292ccd16229ce67.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_dQ6xfTIs_b0a2d72df5337fd7546467d2ecd229e13dec4537.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_uJqhSNrW_53e337307da9420f916cb12fde52789b6f16c2ef.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_eNA2KMy6_e658780dea9d64abf87eee91459b8aed272d0b80.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_XY3LteWc_e5ed209a8c6a4df844d62fe459d1d440646fc49e.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_nCuGfoI4_3a0002dc33f2b3df3d0629625cc1695a6fde3ab1.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_pywqTGsj_f2b6750af78f4bde192b218ebb89fdc7cea71614.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_o7LrDsbz_a0036db4bdb396c87e4f517215e21abf439856db.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_1MBGEjDJ_82314334d421aec6e42de90deef68b2900942f7e.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_TwO4u06B_3d41958f4f96540e385b4889e881031a09d6f8a6.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_ROna0Nzq_5d81c38ded3278ce2cb84a30fde8c62e1c3534bc.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_xA4g7GVy_623bc10672b3eed3585919a9866bb23f1ab2339a.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_oM5CaQ0R_8e615b7d99a21c1410b36e597317fb7ad3746412.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_wV860say_f7c7002cd75f228d9f7e4022cd1392c932e87d7d.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_2hMjGD5z_7ac0d2e15e52faa4a4668018bde8df04ed79a82d.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_yqlzNcQC_10843117cf20919fcc401251d8b869f2fa00aae3.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_qb63VSxJ_52e2d8d2b7ca50f05eb6f84fa28375324db943fe.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_j8H9VIqB_e373f1deffddef0997dda00e2bd00f7159f96a07.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_CB0Mycfi_01cd9fb630bc10571e379768ca3de823881d8a3e.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_P7xElHaW_30220a059fe7ec9690ac6a7d84addf026ff65c8a.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_hwlWnsru_a952a8bfc1fe620ef00e86fee17142690532b9b4.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_CBOdj3Jf_b6de317c09933571e21fcef46dd23eb1b36debc6.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_Kp6gJLCP_bfe614b08c9f5e80e2f278eb36798409c1d744ed.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_OsC6g51x_d4780b8ab9b2acffd9992a9e10a5a9f159f10cb0.jpg" alt="" class="img-tag "/><img src="https://marumaru.cloud/data/file/cmoic/2728278670_RoTa8B2k_5bdbb6bd1430fe55608c8d98f0f86fd43db2f6be.jpg" alt="" class="img-tag "/></div>
+
+
+<script>
+function apms_good(bo_table, wr_id, act, id, wc_id) {
+	var href;
+
+	if(wr_id && wc_id) {
+		href = './good.comment.php?bo_table=' + bo_table + '&wr_id=' + wr_id + '&good=' + act + '&wc_id=' + wc_id;
+	} else {
+		if(wr_id) {
+			href = '/bbs/good.apms.php?bo_table=' + bo_table + '&wr_id=' + wr_id + '&good=' + act;
+		} else {
+			href = './good.php?it_id=' + bo_table + '&good=' + act;
+		}
+	}
+
+	$.post(href, { js: "on" }, function(data) {
+		if(data.error) {
+			alert(data.error);
+			return false;
+		} else if(data.success) {
+			alert(data.success);
+			$("#"+id).text(number_format(String(data.count)));
+		}
+	}, "json");
+}
+
+</script>
+
+<script>
+$(function(){
+	$('.chart').change(function(){
+		location.href = "/bbs/cmoic/" + "22739/" + $(this).val();
+	})
+})
+</script>
+
+<div class="view-content">
+	<div class="page-btn left" >
+	<i class="fa fa-arrow-left"></i>
+	</div>
+
+	<div class="page-btn right" >
+	<i class="fa fa-arrow-right"></i>
+	</div>
+
+	</div>
+
+
+<div style="margin-top:10px">
+	<div class="row w_banner" style="padding-left:0;padding-right:0">
+		<div class="col-md-6 col-sm-6 col-xs-12 banner_m " style="margin-left:25%"><a href="http://bit.ly/38a4ETn" target="_blank"><img src="https://i.imgur.com/InT2A7C.gif" alt="" width="100%" title="" style="padding: 0px;
+		display: block;
+		width: 100% !important;
+		height: auto !important;"></a>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+	<div class="print-hide view-good-box">
+							<span class="view-good">
+					<a href="#" onclick="apms_good('cmoic', '35937', 'good', 'wr_good'); return false;">
+						<b id="wr_good">0</b>
+						<br>
+						<i class="fa fa-thumbs-up"></i>
+					</a>
+				</span>
+			
+
+			<span class="view-good">
+					<a href="#" class="bookmark">
+						<b id="wr_good" style=" margin-left: 7px;  font-size: 15px;">북마크</b>
+						<br>
+						<i class="fa fa-bookmark"></i>
+					</a>
+				</span>
+
+
+			</div>
+			<div class="col-12" style="    padding-top: 5px;   margin-bottom: 20px; border-top: 2px solid #505050;
+		background-color: #fbfbfb;">
+				<h1 style="line-height:50px; margin:0px;">
+
+
+	<div class="popular pull-left goods" style="    display: inline-block;
+		 margin-right: 10px;
+		font-size: 13px;
+		vertical-align: top;
+		/* font-weight: bold; */">
+
+	<select class="chart" style="    vertical-align: unset;    color: black;
+		font-size: 15px;
+		font-weight: normal;">
+		<option value="36359" >잘 자, 푼푼 13-3권</option>
+		<option value="36341" >잘 자, 푼푼 13-2권</option>
+		<option value="36328" >잘 자, 푼푼 13-1권</option>
+		<option value="36316" >잘 자, 푼푼 12-3권</option>
+		<option value="36308" >잘 자, 푼푼 12-2권</option>
+		<option value="36300" >잘 자, 푼푼 12-1권</option>
+		<option value="36290" >잘 자, 푼푼 11-2권</option>
+		<option value="36282" >잘 자, 푼푼 11-1권</option>
+		<option value="36275" >잘 자, 푼푼 10-2권</option>
+		<option value="36267" >잘 자, 푼푼 10-1권</option>
+		<option value="36258" >잘 자, 푼푼 9-2권</option>
+		<option value="36226" >잘 자, 푼푼 9-1권</option>
+		<option value="36196" >잘 자, 푼푼 8-2권</option>
+		<option value="36164" >잘 자, 푼푼 8-1권</option>
+		<option value="36141" >잘 자, 푼푼 7-2권</option>
+		<option value="36121" >잘 자, 푼푼 7-1권</option>
+		<option value="36097" >잘 자, 푼푼 6-2권</option>
+		<option value="36067" >잘 자, 푼푼 6-1권</option>
+		<option value="36057" >잘 자, 푼푼 5-2권</option>
+		<option value="36055" >잘 자, 푼푼 5-1권</option>
+		<option value="36052" >잘 자, 푼푼 4-2권</option>
+		<option value="36046" >잘 자, 푼푼 4-1권</option>
+		<option value="36026" >잘 자, 푼푼 3-2권</option>
+		<option value="36000" >잘 자, 푼푼 3-1권</option>
+		<option value="35975" >잘 자, 푼푼 2-2권</option>
+		<option value="35962" >잘 자, 푼푼 2-1권</option>
+		<option value="35947" >잘 자, 푼푼 1-2권</option>
+		<option value="35937" selected>잘 자, 푼푼 1-1권</option>
+		<option value="" ></option>
+				</select>
+
+	</div>
+
+
+		<div class="popular pull-right" style="    display: inline-block;
+		font-size: 13px;
+		vertical-align: top;
+		/* font-weight: bold; */">
+			<a class="" style="   font-size: 20px;" href="https://marumaru.cloud/bbs/cmoic/22739/35947" title="다음보기">
+	<i class="chapter_prev fa fa-chevron-circle-right"></i>
+	</a>
+		<a style="" href="/bbs/cmoic/22739/35937" class="btn btn-black btn-sm"><i class="fa fa-book"></i> <span>첫화보기</span></a>
+	<a href="https://marumaru.cloud/bbs/cmoic/22739" class="btn btn-black btn-sm"><i class="fa fa-align-justify"></i> <span>전편보기</span></a>
+
+	</div>
+	</h1>
+	</div>
+	
+			
+
+		
+<script>
+ $(function(){
+
+$('.bookmark').click(function(){
+
+	 var type = '';
+	 var name = '';
+	 var b_comicID = '22739';
+	if(!name)	alert('로그인후 북마크 기능이 이용가능합니다.'); return false;
+	 $.ajax({
+		 url: '/bookmark.php',
+		 type: 'POST',
+		 data: {'type' : type, 'name' : name, 'b_comicID' : b_comicID},
+		 success:function(data){
+
+		}
+	 });
+
+
+})
+})
+</script>
+
+
+
+	<div class="clearfix"></div>
+
+
+</div>
+
+<script>
+function board_move(href){
+	window.open(href, "boardmove", "left=50, top=50, width=500, height=550, scrollbars=1");
+}
+$(function() {
+	$("a.view_image").click(function() {
+		window.open(this.href, "large_image", "location=yes,links=no,toolbar=no,top=10,left=10,width=10,height=10,resizable=yes,scrollbars=no,status=no");
+		return false;
+	});
+	});
+</script>
+										</div>
+					<div class="col-md-3 at-col at-side">
+						<style>
+	.widget-side .div-title-underbar { margin-bottom:15px; }
+	.widget-side .div-title-underbar span { padding-bottom:4px; }
+	.widget-side .div-title-underbar span b { font-weight:500; }
+	.widget-box { margin-bottom:25px; }
+	
+.category-image {
+  align-self: center;
+  background: black;
+  border-radius: 5px 0 0 5px;
+}
+
+.category-image-responsive {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+
+.categories-list {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.category {
+ 
+}
+
+.category-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color:#fff;
+}
+
+.category-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color:#ccc;
+}
+
+.category-description {
+  background: #333;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+  max-width: 320px;
+  box-sizing: border-box;
+  border-radius: 0 0 5px 5px;
+}
+
+.categories-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.category {
+  width: 100%;
+}
+
+.category a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+}
+@media screen and (min-width: 300px){
+  .col-md-9{
+    float: right;
+  }
+  .col-md-3{
+    position: inherit !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-md-9{
+    float: right;
+    padding-top: 20px !important;
+  }
+  .category a:hover {
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+  }
+    .category a:hover .category-title {
+    text-shadow:1px 1px 1px #000;
+  }
+    .category a:hover .category-subtitle {
+    text-shadow:1px 1px 1px #000;
+  }
+  
+  .category-image-responsive {
+    border-radius: 5px 0 0 5px;
+	
+  }
+  .category a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: stretch;
+  }
+  .category-description {
+    justify-content: space-around;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+  }
+  .category {
+    width: calc(50% - 15px);
+  }
+  .category-title {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  .category-subtitle {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .category {
+    width: 100%;
+  }
+  .category-title {
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+  .category-subtitle {
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+}
+</style>
+
+
+<div class="widget-side" style="padding-right: 2px;">
+
+<style>
+.hidden-sm { display:none; }
+</style>
+
+
+
+
+	<div class="hidden-sm hidden-xs">
+		<!-- 로그인 시작 -->
+		<div class="div-title-underbar loginForm" style="">
+			<span class="div-title-underbar-bold border-navy font-16 en" >
+				<b>회원 로그인</b>
+			</span>
+		</div>
+
+		<div class="widget-box" style="   padding: 15px 10px 10px 15px;  border: 1px solid #d0d0d0;margin-bottom:10px;">
+			<div class="basic-outlogin">
+	
+		<form id="basic_outlogin" name="basic_outlogin" method="post" action="https://marumaru.cloud/bbs/login_check.php" autocomplete="off" role="form" class="form" onsubmit="return basic_outlogin_form(this);">
+		<input type="hidden" name="url" value="https://marumaru.cloud/bbs/cmoic/22739/35937">
+		<div class="form-group text-left" style="     margin: 0px;
+    width: 50%;
+    float: left;">
+			<div class="form-group" style="    margin-bottom: 5px;">	
+				<div class="input-group">
+
+					<input type="text" name="mb_id" id="outlogin_mb_id" style="height: 25px;" class="form-control input-sm" placeholder="아이디" tabindex="21">
+				</div>
+			</div>
+			<div class="form-group">	
+				<div class="input-group">
+		
+					<input type="password" name="mb_password" id="outlogin_mb_password" style="height: 25px;" class="form-control input-sm" placeholder="비밀번호" tabindex="22">
+				</div>
+			</div>
+			</div>
+			<div class="form-group text-right" style="    margin: 0px;
+    width: 45%;
+    float: left;
+    margin: 0px;
+    /* margin-top: 10px; */
+    line-height: 30px;
+    margin-left: 10px;">
+			<div class="form-group">
+			<div class="pull-left text-muted hidden-xs">
+					<label><input type="checkbox" name="auto_login" value="1" id="outlogin_remember_me" class="remember-me"> 정보기억</label>
+				</div>
+				<button type="submit" class="btn btn-navy btn-block en" tabindex="23" style="    font-size: 1.2rem;
+    background: #fff;
+    width: 70%;
+    /* text-align: center; */
+    font-family: 돋움;
+    /* font-weight: bold; */
+    color: #000000 !important;
+    padding: 5px;
+    border-radius: 5px !important;
+    border: 1px solid #b2b2b2;
+    max-width: 80px;">
+					로그인
+				</button>    
+			</div>	
+			</div>
+			<div class="clearfix"></div>
+			<div style="letter-spacing:-1px;">
+	
+				<div class="pull-left text-muted">
+					<a href="https://marumaru.cloud/bbs/register.php"><span class="text-muted" style="    font-family: 맑은 고딕;"><strong>회원가입</strong></span></a>
+					<span class="lightgray">&nbsp;|&nbsp;</span>
+					<a href="https://marumaru.cloud/bbs/password_lost.php" class="win_password_lost"><span class="text-muted" style="    font-family: 맑은 고딕;">아이디/패스워드찾기</span></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</form>
+
+		
+		<script>
+		function basic_outlogin_form(f) {
+			if (f.mb_id.value == '') {
+				alert('아이디를 입력해 주세요.');
+				f.mb_id.focus();
+				return false;
+			}
+			if (f.mb_password.value == '') {
+				alert('비밀번호를 입력해 주세요.');
+				f.mb_password.focus();
+				return false;
+			}
+			return true;
+		}
+		</script>
+	</div>		</div>
+		<!-- 로그인 끝 -->
+    <div class="row">
+		<div class="col-md-12 col-sm-6">
+
+			<!-- 새글 시작 -->
+			<div class="div-title-underbar">
+				<a href="/bbs/notice">
+					<span class="div-title-underbar-bold border-navy font-16 en">
+						<b>공지사항</b>
+					</span>
+				</a>
+			</div>
+			<div class="widget-box">
+				<div class="basic-post-list">
+	
+<ul class="post-list">
+	<li class="ellipsis">
+		<a href="https://marumaru.cloud/bbs/board.php?bo_table=notice&amp;wr_id=19857">
+			 
+				<span class="pull-right gray font-12">
+																&nbsp;09.11									</span>
+						<span class="lightgray"><i class='fa fa-pencil'></i></span>			<b>배너 문의</b>		</a> 
+	</li>
+</ul>
+</div>
+			</div>
+			<!-- 새글 끝 -->
+
+		</div>
+  </div>
+
+	</div>	
+
+
+
+
+</div>					</div>
+				</div>
+						</div><!-- .at-container -->
+			</div><!-- .at-body -->
+
+			<footer class="at-footer">
+			<nav class="at-links">
+				<div class="at-container">
+					<ul class="pull-left">
+						<li><a>Privacy Policy</a></li> 
+						<li><a>Acceptsuble Use Policy (AUP)</a></li> 
+						<li><a>Terms of Service (TOS)</a></li> 
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</nav>
+			<div class="at-infos">
+				<div class="at-container">
+					
+									</div>
+			</div>
+		</footer>
+	</div><!-- .wrapper -->
+
+<div class="at-go">
+	<div id="go-btn" class="go-btn">
+		<span class="go-top cursor"><i class="fa fa-chevron-up"></i></span>
+		<span class="go-bottom cursor"><i class="fa fa-chevron-down"></i></span>
+	</div>
+</div>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://marumaru.cloud/thema/Basic/assets/js/respond.js"></script>
+<![endif]-->
+
+<!-- JavaScript -->
+<script>
+var sub_show = "slide";
+var sub_hide = "";
+var menu_startAt = "0";
+var menu_sub = "";
+var menu_subAt = "0";
+</script>
+<script src="https://marumaru.cloud/thema/Basic/assets/bs3/js/bootstrap.min.js"></script>
+<script src="https://marumaru.cloud/thema/Basic/assets/js/sly.min.js"></script>
+<script src="https://marumaru.cloud/thema/Basic/assets/js/custom.js"></script>
+
+<script>
+var sidebar_url = "https://marumaru.cloud/thema/Basic/widget/basic-sidebar";
+var sidebar_time = "30";
+</script>
+<script src="https://marumaru.cloud/thema/Basic/widget/basic-sidebar/sidebar.js"></script>
+
+<!-- sidebar Box -->
+<aside id="sidebar-box" class="ko">
+
+	<!-- Head Line -->
+	<div class="sidebar-head bg-navy"></div>
+
+	<!-- sidebar Wing -->
+	<div class="sidebar-wing">
+		<!-- sidebar Wing Close -->
+		<div class="sidebar-wing-close sidebar-close en" title="닫기">
+			<i class="fa fa-times"></i>
+		</div>
+	</div>
+
+	<!-- sidebar Content -->
+	<div id="sidebar-content" class="sidebar-content">
+
+		<div class="h30"></div>
+
+		<!-- Common -->
+		<div class="sidebar-common">
+
+			<!-- Login -->
+			<div class="btn-group btn-group-justified" role="group">
+									<a href="#" onclick="sidebar_open('sidebar-user'); return false;" class="btn btn-navy btn-sm">로그인</a>
+					<a href="https://marumaru.cloud/bbs/register.php" class="btn btn-navy btn-sm">회원가입</a>
+					<a href="https://marumaru.cloud/bbs/password_lost.php" class="win_password_lost btn btn-navy btn-sm">정보찾기</a>
+							</div>
+
+			<div class="h15"></div>
+
+		</div>
+
+		<!-- Menu -->
+		<div id="sidebar-menu" class="sidebar-item">
+			
+<!-- Categroy -->
+<div class="div-title-underline-thin en">
+	<b>MENU</b>
+</div>
+
+
+<div class="sidebar-menu panel-group" id="sidebar_menu" role="tablist" aria-multiselectable="true">
+						<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="/bbs/board.php?bo_table=update" class="no-sub">
+						업데이트											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head active" role="tab">
+					<a href="/bbs/page.php?hid=comicC" class="no-sub">
+						만화(썸네일)											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="https://jusoshow.me/toonsarang" target="_blank" class="no-sub">
+						웹툰											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="https://jusoshow.me/avpop" target="_blank" class="no-sub">
+						성인											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="http://win-마루마루.com/" target="_blank" class="no-sub">
+						보증토토											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="/bbs/board.php?bo_table=webcomic" class="no-sub">
+						웹코믹											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="/bbs/board.php?bo_table=humor" class="no-sub">
+						유머											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab" id="sidebar_menu_c8">
+					<a href="#sidebar_menu_s8" data-toggle="collapse" data-parent="#sidebar_menu" aria-expanded="true" aria-controls="sidebar_menu_s8" class="is-sub">
+						<span class="ca-href pull-right" onclick="sidebar_href('https://marumaru.cloud/bbs/board.php?bo_table=free');">&nbsp;</span>
+						게시판											</a>
+				</div>
+				<div id="sidebar_menu_s8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sidebar_menu_c8">
+					<ul class="ca-sub">
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=free">
+								자유게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=hobby">
+								취미게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=infor">
+								지식붕게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=original">
+								원본게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=reserve">
+								역식자게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=review">
+								감상/리뷰															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=notice">
+								공지사항															</a>
+						</li>
+										</ul>
+				</div>
+			</div>
+			</div>
+
+<div class="h20"></div>
+
+
+		</div>
+
+		<!-- Search -->
+		<div id="sidebar-search" class="sidebar-item">
+			
+<!-- Search -->
+<div class="div-title-underline-thin en">
+	<b>SEARCH</b>
+</div>
+<div class="sidebar-search">
+	<form id="ctrlSearch" name="ctrlSearch" method="get" onsubmit="return sidebar_search(this);" role="form" class="form">
+		<div class="row">
+			<div class="col-xs-6">
+				<select name="url" class="form-control input-sm">
+					<option value="https://marumaru.cloud/bbs/search.php">게시물</option>
+										<option value="https://marumaru.cloud/bbs/tag.php">태그</option>
+				</select>
+			</div>
+			<div class="col-xs-6">
+				<select name="sop" class="form-control input-sm">
+					<option value="or">또는</option>
+					<option value="and">그리고</option>
+				</select>	
+			</div>
+		</div>
+		<div class="input-group input-group-sm" style="margin-top:8px;">
+			<input type="text" name="stx" class="form-control input-sm" value="" placeholder="검색어는 두글자 이상">
+			<span class="input-group-btn">
+				<button type="submit" class="btn btn-navy btn-sm"><i class="fa fa-search"></i></button>
+			</span>
+		</div>
+	</form>				
+</div>
+		</div>
+
+		<!-- User -->
+		<div id="sidebar-user" class="sidebar-item">
+			<div class="sidebar-login">
+	
+		<form id="sidebar_login_form" name="sidebar_login_form" method="post" action="https://marumaru.cloud/bbs/login_check.php" autocomplete="off" role="form" class="form" onsubmit="return sidebar_login(this);">
+		<input type="hidden" name="url" value="https://marumaru.cloud/bbs/cmoic/22739/35937">
+			<div class="form-group">	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-user gray"></i></span>
+					<input type="text" name="mb_id" id="sidebar_mb_id" class="form-control input-sm" placeholder="아이디" tabindex="91">
+				</div>
+			</div>
+			<div class="form-group">	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-lock gray"></i></span>
+					<input type="password" name="mb_password" id="sidebar_mb_password" class="form-control input-sm" placeholder="비밀번호" tabindex="92">
+				</div>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-navy btn-block" tabindex="93">Login</button>    
+			</div>	
+
+			<label class="text-muted" style="letter-spacing:-1px;">
+				<input type="checkbox" name="auto_login" value="1" id="sidebar_remember_me" class="remember-me" tabindex="94">
+				자동로그인 및 로그인 상태 유지
+			</label>
+		</form>
+
+		
+		<div class="h10"></div>
+
+		
+		<!-- Member -->
+		<div class="div-title-underline-thin en">
+			<b>MEMBER</b>
+		</div>
+		<ul class="sidebar-list list-links">
+			<li><a href="https://marumaru.cloud/bbs/register.php">회원가입</a></li>
+			<li><a href="https://marumaru.cloud/bbs/password_lost.php" class="win_password_lost">아이디/비밀번호 찾기</a></li>
+		</ul>
+		
+	</div>
+
+<div class="h20"></div>
+
+<!-- Service -->
+<div class="div-title-underline-thin en">
+	<b>SERVICE</b>
+</div>
+
+<ul class="sidebar-list list-links">
+		<li><a href="https://marumaru.cloud/bbs/faq.php">자주하시는 질문(FAQ)</a></li>
+	<li><a href="https://marumaru.cloud/bbs/qalist.php">1:1 문의</a></li>
+	<li><a href="https://marumaru.cloud/bbs/new.php">새글모음</a></li>
+	<li><a href="https://marumaru.cloud/bbs/current_connect.php">현재접속자</a></li>
+</ul>
+		</div>
+
+		<!-- Response -->
+		<div id="sidebar-response" class="sidebar-item">
+			<div id="sidebar-response-list"></div>
+		</div>
+
+		
+		<div class="h30"></div>
+	</div>
+
+</aside>
+
+<div id="sidebar-box-mask" class="sidebar-close"></div>
+
+
+<!-- 아미나빌더 1.8.0 / 그누보드 5.3.1.6 -->
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+</body>
+</html>
+
+<!-- 사용스킨 : basic -->
