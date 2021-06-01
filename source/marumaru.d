@@ -11,7 +11,7 @@ import std.file;
 import std.conv;
 import std.string;
 import std.outbuffer;
-static import re = std.regex;
+import std.regex;
 import requests;
 import libdominator;
 
@@ -55,7 +55,7 @@ protected static string[] stripFileUrl(string html){
     ];
 
     foreach(p; patthens){
-        auto r = re.matchAll(html, regex(p));
+        auto r = std.regex.matchAll(html, regex(p));
         if(r.empty==false){
             foreach(e; r){
                 writeln(e[0]);
@@ -132,7 +132,7 @@ class comicPage{
      *  제목 얻기
      */
 	string getTitle(){
-		auto re_result = re.match(
+		auto re_result = std.regex.match(
             this.html, ctRegex!(r"<h1>(.+)<\/h1>")
         );
 		string title;
@@ -142,7 +142,7 @@ class comicPage{
 
 		// <h1>~</h1> 태그 안에 또다른 태그가 존재한다면,
 		if( title.indexOf("<") != -1 || title.indexOf(">") != -1 ){
-			title = re.replaceAll( title, ctRegex!(" *</*[fontspa]+ *[stycolrface =\"#\\d\\w,:;\\.\\-\\(\\)]*> *"), "" );
+			title = std.regex.replaceAll( title, ctRegex!(" *</*[fontspa]+ *[stycolrface =\"#\\d\\w,:;\\.\\-\\(\\)]*> *"), "" );
 		}
 		return title;
 	}
@@ -167,7 +167,7 @@ class comicPage{
                 // key=href면서, 해당 도메인(bool x())이 포함된 경우,
                 if(ab.key=="href" && x("archives") ){
                     auto removeTag = (string target){
-                        return re.replaceAll(target, ctRegex!("<[^>]*>"), "");
+                        return std.regex.replaceAll(target, ctRegex!("<[^>]*>"), "");
                     };
 				    
                     link l;
@@ -215,8 +215,8 @@ struct comic{
     static string[string] getInfo(string hosting_url){
         string html = req(hosting_url);
 
-        auto rx_id = re.matchAll(hosting_url, "<div class=\"article-title\" title=\"(.+)\">");
-        auto rx_title = re.matchAll(html, "<span class=\"title-subject\">(.+)</span>");
+        auto rx_id = std.regex.matchAll(hosting_url, "<div class=\"article-title\" title=\"(.+)\">");
+        auto rx_title = std.regex.matchAll(html, "<span class=\"title-subject\">(.+)</span>");
         
         string[string] result;
         result["INDEX"] = rx_id.front[1];
@@ -231,7 +231,7 @@ struct comic{
     static string[] getFileUrl(string hosting_url){
 		string[] urls;
 		string html = req(hosting_url);
-        string let = re.matchFirst(hosting_url, ctRegex!("[shenyucomicswabrp]+.com"))[0];
+        string let = std.regex.matchFirst(hosting_url, ctRegex!("[shenyucomicswabrp]+.com"))[0];
 
 		// 암호 걸린 만화일 경우
 		if(html.indexOf("Protected")>-1){
