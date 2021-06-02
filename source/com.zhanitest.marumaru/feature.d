@@ -1,6 +1,8 @@
 module com.zhanitest.marumaru.feature;
 
 import requests;
+import std.uri:encode;
+import std.conv:to;
 import com.zhanitest.marumaru.common;
 
 /***
@@ -8,10 +10,11 @@ import com.zhanitest.marumaru.common;
  *  OpenSSL 인증서 위치 기본 값 = cacert.pem
  */
 class ClientFeature {
-    private string url;     /// 만화 URL
+    private string Rurl;    /// 만화 URL
     private string sslPath; /// SSL 인증서 위치
-    private string Rhtml;    /// 요청결과
-    @property public string html() { return this.Rhtml; }
+    private string Rhtml;   /// 요청결과
+    @property public string html()  { return this.Rhtml; }
+    @property public string url()   { return this.Rurl; }
     
     /***
      * 생성자
@@ -19,7 +22,7 @@ class ClientFeature {
      *  url = 파싱 할 만화URL
      */
     public this(string url) {
-        this.url = url;
+        this.Rurl = url;
         this.sslPath = CommonData.SSL_PATH;
     }
 
@@ -37,9 +40,14 @@ class ClientFeature {
      */
     public void request() {
         Request req = Request();
+        req.sslSetCaCert(CommonData.SSL_PATH);
+        //req.sslSetVerifyPeer(false);
         debug {
             req.verbosity = DevData.REQUEST_LOG_LEVEL; // Request 디버깅 레벨
         }
+        req.addHeaders(UserAgent.Chrome);
+        Response res = req.get(encode(this.Rurl)); // url 인코딩 추가
+        this.Rhtml = to!string(res.responseBody);
     }
 
     /***
