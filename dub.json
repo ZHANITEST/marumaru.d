@@ -8,7 +8,7 @@
     "copyright": "Copyleft LGPLv2 2017, ZHANITEST",
     "license": "LGPL-v2",
     "dependencies": {
-        "requests": "~>1.0.1",
+        "requests": "~>2.0.0",
         "libdominator": "~>1.1.6"
     }
 }
