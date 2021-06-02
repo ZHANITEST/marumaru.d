@@ -1,8 +1,10 @@
 module com.zhanitest.marumaru.utils;
 
 import std.string:replace;
-import std.file:exists,mkdir;
+import std.file:exists,mkdir,remove;
 import std.array:split,appender;
+import std.net.curl:download;
+import com.zhanitest.marumaru.common;
 
 /***
   * 유틸리티 클래스
@@ -36,5 +38,16 @@ struct Utils {
                 result.put(c);
         } 
         return result.data;
+    }
+
+    /***
+     * cacert.pem 다운로드
+     */
+    public static bool downloadSslCert() {
+        if(exists(CommonData.SSL_PATH)) {
+            remove(CommonData.SSL_PATH);
+        }
+        download(CommonData.SSL_DOWNLOAD_URL, CommonData.SSL_PATH);
+        return exists(CommonData.SSL_PATH);
     }
 }
