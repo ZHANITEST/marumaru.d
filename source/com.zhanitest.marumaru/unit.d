@@ -3,6 +3,7 @@ module com.zhanitest.marumaru.unit;
 import std.string:indexOf, strip;
 import std.regex:matchAll, ctRegex, replaceAll;
 import std.array:appender;
+import libdominator;
 import com.zhanitest.marumaru.common;
 import com.zhanitest.marumaru.feature;
 
@@ -64,7 +65,7 @@ class ComicPage{
      * 제목 얻기
      */
 	@property
-    public string title(){
+    public string title() {
         const string pattern = `<meta property="og:title" content="([><.,?;:'"|~+=)(\]\[!@#$%^&*★\w\d- 가-힣]+)" \/>`;
         auto rx = matchAll(this.Rhtml, pattern);
         if(rx.empty()) {
@@ -72,6 +73,15 @@ class ComicPage{
         }
         return strip(rx.front[1]);
 	}
+
+    /***
+     * 이미지 URL 얻기
+     */
+    public string[] getImageUrl() {
+        Dominator dom = new Dominator(this.Rhtml);
+        string[] data;
+        return data; // -- 중셉
+    }
 
     debug{
         /***
