@@ -66,7 +66,7 @@ class ComicPage{
      */
 	@property
     public string title() {
-        const string pattern = `<meta property="og:title" content="([><.,?;:'"|~+=)(\]\[!@#$%^&*★\w\d- 가-힣]+)" \/>`;
+        const string pattern = `<meta property="og:title" content="([』『】【><.,?;:'"|~+=)(\]\[!@#$%^&*★☆\w\d- 가-힣]+)" \/>`;
         auto rx = matchAll(this.Rhtml, pattern);
         if(rx.empty()) {
             throw new Exception("Regex result is empty!");
@@ -77,10 +77,19 @@ class ComicPage{
     /***
      * 이미지 URL 얻기
      */
-    public string[] getImageUrl() {
+    public string[] getImageUrls() {
+        string[] result;
         Dominator dom = new Dominator(this.Rhtml);
-        string[] data;
-        return data; // -- 중셉
+        Node node = dom.filterDom("div{class:view-img}")[0];
+        foreach(Node imgElement; node.getChildren()) { // div[class=view-img] 안에 있는 자식엘리먼트중 
+            if(imgElement.getTag() == "img") { // img태그만
+                foreach(Attribute attr; imgElement.getAttributes()) { // 그 중에서 src만
+                    if(attr.key == "src" && attr.values.length == 1)
+                        result ~=attr.values[0];
+                }
+            }
+        }
+        return result;
     }
 
     debug{
