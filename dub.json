@@ -9,6 +9,6 @@
     "license": "LGPL-v2",
     "dependencies": {
         "requests": "~>2.0.0",
-        "libdominator": "~>1.1.6"
+        "libdominator": "~>1.1.7"
     }
 }
