@@ -18,7 +18,7 @@ import libdominator;
 /**
  * 디렉토리 중복에 상관없이 생성
  */
-void makeDir( string path ){
+deprecated void makeDir( string path ){
 	string[] keywords = split(path, "/");
 	string stack = "./";
 	foreach(p; keywords){
@@ -31,7 +31,7 @@ void makeDir( string path ){
 /**
  * 특수문자 제거
  */
-string stripChar( string text, string keyword=" " ){
+deprecated string stripChar( string text, string keyword=" " ){
 	string result = text;
 	string[] table = [ "/", ":", "*", "?", "<", ">", "|", "？" ];
 	foreach( t; table ){
@@ -43,7 +43,7 @@ string stripChar( string text, string keyword=" " ){
 /**
  *  HTML코드에서 이미지파일주소만 추출
  */
-protected static string[] stripFileUrl(string html){
+deprecated protected static string[] stripFileUrl(string html){
     string target = html;
     string[] result = [];
 
@@ -76,7 +76,7 @@ protected static string[] stripFileUrl(string html){
 /**
  *  리퀘스트 날리기
  */
-string req(string url){
+deprecated string req(string url){
     auto rq = Request();
 	
     // 인증서 추가
@@ -131,7 +131,7 @@ class comicPage{
     /**
      *  제목 얻기
      */
-	string getTitle(){
+	deprecated string getTitle(){
 		auto re_result = std.regex.match(
             this.html, ctRegex!(r"<h1>(.+)<\/h1>")
         );
@@ -150,7 +150,7 @@ class comicPage{
     /**
      *  만화 데이터 얻기
      */
-    comic getLink(){
+    deprecated comic getLink(){
         comic result;
         link[] list;
         Dominator dom = new Dominator(this.html);
@@ -212,7 +212,7 @@ struct comic{
      *      string[string] r
      *      writeln(r["TITLE"]~":"~r["INDEX"]);
      */
-    static string[string] getInfo(string hosting_url){
+    deprecated static string[string] getInfo(string hosting_url){
         string html = req(hosting_url);
 
         auto rx_id = std.regex.matchAll(hosting_url, "<div class=\"article-title\" title=\"(.+)\">");
@@ -228,7 +228,7 @@ struct comic{
     /**
      *  호스팅 URL로 직접 URL 얻기
      */
-    static string[] getFileUrl(string hosting_url){
+    deprecated static string[] getFileUrl(string hosting_url){
 		string[] urls;
 		string html = req(hosting_url);
         string let = std.regex.matchFirst(hosting_url, ctRegex!("[shenyucomicswabrp]+.com"))[0];
@@ -269,99 +269,99 @@ struct comic{
     /**
      *  인덱스로 파일 URL 얻기
      */
-    string[] getFileUrl(int index){
+    deprecated string[] getFileUrl(int index){
         return this.getFileUrl(this.links[index].url);
     }
 }
 
 
 
-unittest{
-    /*
-    comicpage(marumaru.in/magna/<ID>)
-      - LINK1
-      - LINK2
-      - LINK3
+// unittest{
+//     /*
+//     comicpage(marumaru.in/magna/<ID>)
+//       - LINK1
+//       - LINK2
+//       - LINK3
     
-    hostpage(LINK1)
-      - IMG1
-      - IMG2
-    */
+//     hostpage(LINK1)
+//       - IMG1
+//       - IMG2
+//     */
 
-    // comicpage test
+//     // comicpage test
 
-    // req함수 테스트
-    writeln("===== Function Test =====");
-    string temp = req("http://wasabisyrup.com/archives/57Gm5SVLfbk");
-    assert(temp.indexOf("you have been blocked")==-1);
-    writeln("req Pass!"); 
+//     // req함수 테스트
+//     writeln("===== Function Test =====");
+//     string temp = req("http://wasabisyrup.com/archives/57Gm5SVLfbk");
+//     assert(temp.indexOf("you have been blocked")==-1);
+//     writeln("req Pass!"); 
     
-    // comicPage클래스 -> 생성자 테스트
-    writeln("===== ComicPage Test =====");
-    //int test_id = 252870; // 흑백렌즈http://wasabisyrup.com/archives/57Gm5SVLfbk
-    int test_id = 278089; // http://wasabisyrup.com/archives/0fvOcx55kl8
-    auto c = new comicPage(test_id);
-    writeln("Init Pass!"); 
+//     // comicPage클래스 -> 생성자 테스트
+//     writeln("===== ComicPage Test =====");
+//     //int test_id = 252870; // 흑백렌즈http://wasabisyrup.com/archives/57Gm5SVLfbk
+//     int test_id = 278089; // http://wasabisyrup.com/archives/0fvOcx55kl8
+//     auto c = new comicPage(test_id);
+//     writeln("Init Pass!"); 
     
-    // comicPage클래스 -> 타이틀얻기 테스트(getTitle)
-    assert(c.getTitle()!=""); // getTitle
-    writeln("getTitle Pass!");
+//     // comicPage클래스 -> 타이틀얻기 테스트(getTitle)
+//     assert(c.getTitle()!=""); // getTitle
+//     writeln("getTitle Pass!");
 
-    // comicPage클래스 -> 만화 회차링크 얻기 테스트(getLink)
-    comic guichan = c.getLink();
-    assert(guichan.links.length>0); // getLink-2
-    assert(guichan.links[0].url=="http://wasabisyrup.com/archives/0fvOcx55kl8");
-    writeln("getLink-2 Pass!");
+//     // comicPage클래스 -> 만화 회차링크 얻기 테스트(getLink)
+//     comic guichan = c.getLink();
+//     assert(guichan.links.length>0); // getLink-2
+//     assert(guichan.links[0].url=="http://wasabisyrup.com/archives/0fvOcx55kl8");
+//     writeln("getLink-2 Pass!");
 
-    // 얻은 만화링크에서 html를 추출(파싱할 수 있는 결과값인지 여부) 테스트 
-    assert(c.html.indexOf("vContent")>0); // innerHTML
-    writeln("c.html.indexOf Pass!");
+//     // 얻은 만화링크에서 html를 추출(파싱할 수 있는 결과값인지 여부) 테스트 
+//     assert(c.html.indexOf("vContent")>0); // innerHTML
+//     writeln("c.html.indexOf Pass!");
 
-    // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출 테스트
-    writeln("===== Comic Test =====");
-    assert(guichan.getFileUrl(0).length!=0);
-    writeln("getFileUrl Pass!");
+//     // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출 테스트
+//     writeln("===== Comic Test =====");
+//     assert(guichan.getFileUrl(0).length!=0);
+//     writeln("getFileUrl Pass!");
     
-    // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출의 검증 테스트
-    assert(
-        guichan.getFileUrl(0)[0] == 
-        "http://wasabisyrup.com/storage/gallery/0fvOcx55kl8/m_pvBgjwoCYcs.jpeg"
-    );
+//     // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출의 검증 테스트
+//     assert(
+//         guichan.getFileUrl(0)[0] == 
+//         "http://wasabisyrup.com/storage/gallery/0fvOcx55kl8/m_pvBgjwoCYcs.jpeg"
+//     );
 
-    // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출 후 다운로드
-    static import uri = std.uri;
-    auto rq = Request();
-    rq.verbosity = 3;
-    rq.sslSetCaCert("cacert.pem");
+//     // comic구조체 -> 1회차의 만화에서 맨 첫번째 이미지 링크 추출 후 다운로드
+//     static import uri = std.uri;
+//     auto rq = Request();
+//     rq.verbosity = 3;
+//     rq.sslSetCaCert("cacert.pem");
 
-    rq.addHeaders(
-        [
-            "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Encoding":"gzip, deflate",
-            "Accept-Language":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
-            "Connection":"keep-alive",
-            //"Cookie":"__cfduid=df7e78bdf99b04142e8ea2098edd4422d1531538403; PHPSESSID=c4029010882f0a9b651040dc84a62308",
-            "Host":"wasabisyrup.com",
-            "Referer":guichan.links[0].url,
-            "Upgrade-Insecure-Requests":"1",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0"
-        ]
-    );
-    writeln("guichan.links[0].url = "~guichan.links[0].url);
+//     rq.addHeaders(
+//         [
+//             "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+//             "Accept-Encoding":"gzip, deflate",
+//             "Accept-Language":"ko-KR,ko;q=0.8,en-US;q=0.5,en;q=0.3",
+//             "Connection":"keep-alive",
+//             //"Cookie":"__cfduid=df7e78bdf99b04142e8ea2098edd4422d1531538403; PHPSESSID=c4029010882f0a9b651040dc84a62308",
+//             "Host":"wasabisyrup.com",
+//             "Referer":guichan.links[0].url,
+//             "Upgrade-Insecure-Requests":"1",
+//             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0"
+//         ]
+//     );
+//     writeln("guichan.links[0].url = "~guichan.links[0].url);
 
-    string encoded_url = uri.encode(
-       guichan.getFileUrl(0)[0]
-    );
+//     string encoded_url = uri.encode(
+//        guichan.getFileUrl(0)[0]
+//     );
 
-    auto ds = rq.get(encoded_url);
+//     auto ds = rq.get(encoded_url);
 
-    writeln("download file... : "~encoded_url~ " to ./test.jpeg ...");
+//     writeln("download file... : "~encoded_url~ " to ./test.jpeg ...");
 
 
-    File f = File("test.jpeg", "wb"); // do not forget to use both "w" and "b" modes when open file.
-    f.rawWrite(ds.responseBody.data);
-    f.close();
+//     File f = File("test.jpeg", "wb"); // do not forget to use both "w" and "b" modes when open file.
+//     f.rawWrite(ds.responseBody.data);
+//     f.close();
 
-    writeln("\n\n\n"); // dub test로 유닛테스트 실행/종료 시 보기 좋게 하기 위해.
+//     writeln("\n\n\n"); // dub test로 유닛테스트 실행/종료 시 보기 좋게 하기 위해.
 
-}
+// }
