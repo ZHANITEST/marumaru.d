@@ -1,0 +1,2193 @@
+<!doctype html>
+<html lang="ko" id="no-fouc">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="title" content="MARUMARU - 마루마루 - GTO" />
+<meta name="publisher" content="MARUMARU - 마루마루" />
+<meta name="author" content="MARUMARU - 마루마루" />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="MARUMARU - 마루마루" />
+<meta name="description" content="MARUMARU - 마루마루 - GTO" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:title" content="MARUMARU - 마루마루 - GTO" />
+<meta property="og:site_name" content="MARUMARU - 마루마루" />
+<meta property="og:author" content="MARUMARU - 마루마루" />
+<meta property="og:type" content="" />
+<meta property="og:description" content="MARUMARU - 마루마루 - GTO" />
+<meta property="og:url" content="https://marumaru.cloud/bbs/cmoic/20342" />
+<link rel="canonical" href="https://marumaru.cloud/bbs/cmoic/20342" />
+<title>MARUMARU - 마루마루 - GTO</title>
+<link rel="stylesheet" href="https://marumaru.cloud/css/default.css?ver=200318">
+<link rel="stylesheet" href="https://marumaru.cloud/css/apms.css?ver=200318">
+
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/assets/bs3/css/bootstrap.min.css?ver=200318" type="text/css" class="thema-mode">
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/colorset/Basic/colorset.css?ver=200318"
+ type="text/css" class="thema-colorset">
+<link rel="stylesheet" href="https://marumaru.cloud/skin/board/basic/style.css?ver=200318" >
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/widget/basic-outlogin/widget.css?ver=200318">
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/widget/basic-post-list2/widget.css?ver=200318">
+<link rel="stylesheet" href="https://marumaru.cloud/thema/Basic/widget/basic-sidebar/widget.css?ver=200318">
+<link rel="stylesheet" href="https://marumaru.cloud/css/level/basic.css?ver=200318">
+<link rel="apple-touch-icon" href="/apple-touch-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-iphone4.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-ipad-retina.png" />
+<!--[if lte IE 8]>
+<script src="https://marumaru.cloud/js/html5.js"></script>
+<![endif]-->
+<script>
+// 자바스크립트에서 사용하는 전역변수 선언
+var g5_url       = "https://marumaru.cloud";
+var g5_bbs_url   = "https://marumaru.cloud/bbs";
+var g5_is_member = "";
+var g5_is_admin  = "";
+var g5_is_mobile = "";
+var g5_bo_table  = "cmoic";
+var g5_sca       = "20342";
+var g5_pim       = "";
+var g5_editor    = "";
+var g5_responsive    = "1";
+var g5_cookie_domain = "";
+</script>
+<script src="https://marumaru.cloud/js/jquery-1.11.3.min.js"></script>
+<script src="https://marumaru.cloud/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://marumaru.cloud/lang/korean/lang.js?ver=200318"></script>
+<script src="https://marumaru.cloud/js/common.js?ver=200318"></script>
+<script src="https://marumaru.cloud/js/wrest.js?ver=200318"></script>
+<script src="https://marumaru.cloud/js/placeholders.min.js"></script>
+<script src="https://marumaru.cloud/js/apms.js?ver=200318"></script>
+
+<script src="https://marumaru.cloud/js/getList.js?ver=200318"></script>
+<link rel="stylesheet" href="https://marumaru.cloud/js/font-awesome/css/font-awesome.min.css">
+<script>
+function printtList(page,type=''){
+    let data;
+
+    if(!page) page = 1;
+
+    try{    
+        data = $.ajax({
+            url: '../getListCategory.php',
+            type: 'POST',
+            data: { 'page': page, 'type' : type}
+        });
+        data = JSON.parse(data) || false;
+  
+    }catch(e){
+        console.log(e);
+    }
+  return data;
+}
+</script>
+<link rel="shortcut icon" href="https://marumaru.cloud/img/favicon.ico">
+<style>
+	 #no-fouc { opacity: 1; }
+</style>
+<script>
+
+	$(document).ready(function(){
+		$("#no-fouc").delay(250).animate({"opacity": "1"}, 250);
+	})
+
+</script>
+<script src="https://marumaru.cloud/plugin/apms/js/jquery.mobile.swipe.min.js"></script>
+</head>
+<body class="responsive is-pc">
+<style>
+		.at-container {max-width:1200px;}
+	.no-responsive .wrapper, .no-responsive .at-container-wide { min-width:1200px; }
+	.no-responsive .boxed.wrapper, .no-responsive .at-container { width:1200px; }
+	.at-menu .nav-height { height:44px; line-height:44px !important; }
+	.pc-menu, .pc-menu .nav-full-back, .pc-menu .nav-full-height { height:44px; }
+	.pc-menu .nav-top.nav-float .menu-a { padding:0px 25px; }
+	.pc-menu .nav-top.nav-float .sub-1div::before { left: 25px; }
+	.pc-menu .subm-w { width:170px; }
+	@media all and (min-width:1200px) {
+		.responsive .boxed.wrapper { max-width:1200px; }
+	}
+</style>
+
+<div id="thema_wrapper" class="wrapper  ko">
+<style>
+@media (max-width: 600px) {
+.banner_m a img{
+	height:65px;
+}
+}
+</style>
+	<!-- PC Header -->
+	<header class="pc-header">
+		<div class="at-container">
+			<!-- PC Logo -->
+			<div class="header-logo">
+				<a href="https://marumaru.cloud">
+					<img src="https://marumaru.cloud/img/logo2.png">
+				</a>
+			</div>
+			<!-- PC Search -->
+			<div class="header-search">
+			<div class="registerform">
+									<a href="https://marumaru.cloud/bbs/register.php">회원가입</a> |
+					<a href="https://marumaru.cloud/bbs/login.php">로그인</a>
+								</div>
+				<form name="tsearch" method="get" onsubmit="return tsearch_submit(this);" role="form" class="form">
+				<input type="hidden" name="url"	value="https://marumaru.cloud/bbs/search.php">
+					<div class="input-group input-group-sm">
+						<input type="text" name="stx" class="form-control input-sm" value="" placeholder="만화검색">
+						<span class="input-group-btn">
+							<button type="submit" class="btn btn-sm"><i class="fa fa-search fa-lg"></i></button>
+						</span>
+					</div>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</header>
+
+	<!-- Mobile Header -->
+	<header class="m-header">
+		<div class="at-container">
+			<div class="header-wrap">
+
+				<div class="header-logo en" style="    background: #ff940e;
+		text-align: left;
+		padding-left: 3px;">
+					<!-- Mobile Logo -->
+					<a href="https://marumaru.cloud" style="    font-size: 2.5rem;
+		font-family: 돋움;     text-shadow: 2px 2px #000000;">
+						MARUMARU
+					</a>
+				</div>
+
+				<div class="header-icon" style="    position: absolute;
+		right: 45px;">
+				<a  onclick="alert('로그인을 하셔야 북마크 기능이 가능합니다.'); return false; "  data-toggle="tooltip" data-placement="top" data-html="true">
+								<i class="fa fa-bookmark"></i>
+					</a>
+					</div>
+
+				<div class="header-icon" style="    position: absolute;
+		right: 0px;">
+					<a href="https://marumaru.cloud/bbs/login.php">
+						<i class="fa fa-user"></i>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+	</header>
+	<div class="header-searchbar m-header">
+	<form name="tsearch" method="get" onsubmit="return tsearch_submit(this);" role="form" class="form" style="width: 70%;
+		display: inline-block;">
+	<button type="submit" class="btn btn-sm" style="    float: right;
+		width: 10%;
+		/* position: absolute; */
+		background: transparent;"><i class="fa fa-search fa-lg"></i></button>
+				<input type="hidden" name="url" value="/bbs/search.php">
+
+						<input type="text" style="width: 90%;border-radius: 30px !important;text-align: center;font-weight: bold;"name="stx" class="form-control input-sm" value="" placeholder="만화검색">
+
+
+
+
+				</form>
+
+	</div>
+	<!-- Menu -->
+	<nav class="at-menu">
+		<!-- PC Menu -->
+		<div class="pc-menu">
+		<div class="nav-right nav-rw nav-height" style="background: #767676;">
+					<ul>
+
+
+						<!-- <li>
+							<a href="javascript:;" onclick="sidebar_open('sidebar-search');" data-original-title="<nobr>검색</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+								<i class="fa fa-search"></i>
+							</a>
+						</li>
+						<li class="menu-all-icon" data-original-title="<nobr>전체메뉴</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+							<a href="javascript:;" data-toggle="collapse" data-target="#menu-all">
+								<i class="fa fa-th"></i>
+							</a>
+						</li> -->
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			
+
+	<div class="nav-visible">
+		<div class="at-container">
+			<div class="nav-top nav-both nav-slide">
+				<ul class="menu-ul">
+				<li class="menu-li nav-home off">
+					<a class="menu-a nav-height" href="https://marumaru.cloud">
+						HOME
+					</a>
+				</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="/bbs/board.php?bo_table=update">
+							업데이트													</a>
+											</li>
+									<li class="menu-li on">
+						<a class="menu-a nav-height" href="/bbs/page.php?hid=comicC">
+							만화(썸네일)													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://jusoshow.me/toonsarang" target="_blank">
+							웹툰													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://jusoshow.me/avpop" target="_blank">
+							성인													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="http://win-마루마루.com/" target="_blank">
+							보증토토													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="/bbs/board.php?bo_table=webcomic">
+							웹코믹													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="/bbs/board.php?bo_table=humor">
+							유머													</a>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://marumaru.cloud/bbs/board.php?bo_table=free">
+							게시판													</a>
+													<div class="sub-slide sub-1div">
+								<ul class="sub-1dul">
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=free" class="sub-1da">
+											자유게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=hobby" class="sub-1da">
+											취미게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=infor" class="sub-1da">
+											지식붕게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=original" class="sub-1da">
+											원본게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=reserve" class="sub-1da">
+											역식자게시판																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=review" class="sub-1da">
+											감상/리뷰																					</a>
+																			</li>
+								
+									
+									<li class="sub-1dli off">
+										<a href="https://marumaru.cloud/bbs/board.php?bo_table=notice" class="sub-1da">
+											공지사항																					</a>
+																			</li>
+																</ul>
+							</div>
+											</li>
+								<!-- 우측공간 확보용 -->
+				<li class="menu-li nav-rw" style="    text-align: right;">
+			
+							<a style="    color: #fff;
+    right: 0px;
+	font-size: 1.7rem;
+    line-height: 45px;"onclick="alert('로그인을 하셔야 북마크 기능이 가능합니다.'); return false; " data-original-title="<nobr>북마크</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+								<i class="fa fa-bookmark"></i>
+				</a></li>
+				</ul>
+			</div><!-- .nav-top -->
+		</div>	<!-- .nav-container -->
+	</div><!-- .nav-visible -->
+
+			<div class="clearfix"></div>
+			<div class="nav-back"></div>
+		</div><!-- .pc-menu -->
+
+		<!-- PC All Menu -->
+		<div class="pc-menu-all">
+			<div id="menu-all" class="collapse">
+				<div class="at-container table-responsive">
+					<table class="table">
+					<tr>
+											<td class="off">
+							<a class="menu-a" href="/bbs/board.php?bo_table=update">
+								업데이트															</a>
+													</td>
+											<td class="on">
+							<a class="menu-a" href="/bbs/page.php?hid=comicC">
+								만화(썸네일)															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="https://jusoshow.me/toonsarang" target="_blank">
+								웹툰															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="https://jusoshow.me/avpop" target="_blank">
+								성인															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="http://win-마루마루.com/" target="_blank">
+								보증토토															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="/bbs/board.php?bo_table=webcomic">
+								웹코믹															</a>
+													</td>
+											<td class="off">
+							<a class="menu-a" href="/bbs/board.php?bo_table=humor">
+								유머															</a>
+													</td>
+					</tr><tr>
+						<td class="off">
+							<a class="menu-a" href="https://marumaru.cloud/bbs/board.php?bo_table=free">
+								게시판															</a>
+															<div class="sub-1div">
+									<ul class="sub-1dul">
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=free" class="sub-1da">
+												자유게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=hobby" class="sub-1da">
+												취미게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=infor" class="sub-1da">
+												지식붕게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=original" class="sub-1da">
+												원본게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=reserve" class="sub-1da">
+												역식자게시판																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=review" class="sub-1da">
+												감상/리뷰																							</a>
+										</li>
+									
+										
+										<li class="sub-1dli off">
+											<a href="https://marumaru.cloud/bbs/board.php?bo_table=notice" class="sub-1da">
+												공지사항																							</a>
+										</li>
+																		</ul>
+								</div>
+													</td>
+										</tr>
+					</table>
+					<div class="menu-all-btn">
+						<div class="btn-group">
+							<a class="btn btn-lightgray" href="https://marumaru.cloud"><i class="fa fa-home"></i></a>
+							<a href="javascript:;" class="btn btn-lightgray" data-toggle="collapse" data-target="#menu-all"><i class="fa fa-times"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- .pc-menu-all -->
+
+		<!-- Mobile Menu -->
+		<div class="m-menu">
+			<div class="m-wrap">
+	<div class="at-container">
+		<div class="m-table en">
+
+						<div class="m-list">
+				<div  id="mobile_nav">
+					<ul class="clearfix navMaruMaru">
+
+							
+							<li class="s">
+							<a href="/" style="color: #464646;">
+								홈				 										</a>
+						</li>
+		
+						<li class="">
+							<a href="/bbs/board.php?bo_table=update">
+								만화업데이트															</a>
+						</li>
+						<li class="">
+							<a href="/bbs/page.php?hid=comicC">
+								만화(썸네일)															</a>
+						</li>
+											<li class="">
+							<a href="https://jusoshow.me/toonsarang" target="_blank">
+								웹툰															</a>
+						</li>
+											<li class="">
+							<a href="https://jusoshow.me/avpop" target="_blank">
+								성인															</a>
+						</li>
+											<li class="">
+							<a href="http://ov-마루마루.com/" target="_blank">
+								보증토토															</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=webcomic">
+								웹코믹															</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=humor">
+								유머게시판															</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=reserve">
+								역식자게시판														</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=original">
+								원본게시판														</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=infor">
+								지식붕게시판														</a>
+						</li>	
+						<li class="">
+							<a href="/bbs/board.php?bo_table=hobby">
+								취미게시판														</a>
+						</li>				
+						<li class="">
+							<a href="/bbs/board.php?bo_table=review">
+								감상/리뷰														</a>
+						</li>
+						<li class="">
+							<a href="/bbs/board.php?bo_table=free">
+								자유게시판														</a>
+						</li>		
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+		</div><!-- .m-menu -->
+	</nav><!-- .at-menu -->
+
+	<div class="clearfix"></div>
+	<style>
+	.w_banner {
+		margin: 0 0 3px 0 !important;
+}
+.banner_m {
+		padding: 1px 1px 0 0 !important;
+}
+.at-col{
+	padding:0px !important;
+}
+
+</style>
+	<div class="at-body">
+					<div class="at-container">
+							<div class="row at-row">
+				<div class="row w_banner" style="   padding-top: 0px;    padding-bottom: 0px;">
+					<div class="col-xs-12 banner_m" style="padding:0;"><a href="https://betmovekr.com/affiliates/?btag=459070" target="_blank"><img src="https://i.imgur.com/5vlFlbP.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://wbwb7.com" target="_blank"><img src="https://i.imgur.com/kWyXS03.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://bbet2020.com" target="_blank"><img src="https://i.imgur.com/y7pKcLk.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="https://afm88.com" target="_blank"><img src="https://i.imgur.com/UNkIKgY.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="https://afm88.com" target="_blank"><img src="https://i.imgur.com/UNkIKgY.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://tlo-777.com" target="_blank"><img src="https://i.imgur.com/8JPPQw1.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://grs-g2.com" target="_blank"><img src="https://i.imgur.com/f1Sz39r.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://fair-1285.com" target="_blank"><img src="https://i.imgur.com/G9b8K1U.gif" alt="" width="100%" ></a></div><div class="col-md-3 col-sm-6 col-xs-6 banner_m "><a href="http://www.trra-we.com" target="_blank"><img src="https://i.imgur.com/RlWA3ex.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://po-kk.com/?code=MARU" target="_blank"><img src="https://i.imgur.com/JsQO8yp.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://wb-tt.com" target="_blank"><img src="https://i.imgur.com/WB7EOzV.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://ten-1056.com" target="_blank"><img src="https://i.imgur.com/bXjLEEz.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://sun-4353.com/?regcode=355" target="_blank"><img src="https://i.imgur.com/mRYyhcb.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://mst-777.com" target="_blank"><img src="https://i.imgur.com/yW1DOo2.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://bit.ly/3q1VRvD" target="_blank"><img src="https://i.imgur.com/dg44mfY.gif" alt="" width="100%" ></a></div><div class="col-xs-12 banner_m" style="padding:0;"><a href="http://kor-9630.com" target="_blank"><img src="https://i.imgur.com/1gsMpDW.gif" alt="" width="100%" ></a></div>					</div>
+					<div class="col-md-9 at-col at-main" style="    padding: 0px !important;">
+					
+							 
+<section class="board-list"> 
+
+	
+
+	<div class="list-wrap">
+		<form name="fboardlist" id="fboardlist" action="/bbs/board_list_update.php" onsubmit="return fboardlist_submit(this);" method="post" role="form" class="form">
+			<input type="hidden" name="bo_table" value="cmoic">
+			<input type="hidden" name="sfl" value="">
+			<input type="hidden" name="stx" value="">
+			<input type="hidden" name="spt" value="-146334">
+			<input type="hidden" name="sca" value="20342">
+			<input type="hidden" name="sst" value="wr_num, wr_reply">
+			<input type="hidden" name="sod" value="">
+			<input type="hidden" name="page" value="1">
+			<input type="hidden" name="sw" value="">
+			<style>
+	.col-md-9{
+		width: 100% !important;
+	}
+</style>
+
+<div class="tooninformation row" style="margin:0px;">
+<div class="col-md-12" style="padding:0px; 
+    overflow: hidden;    padding: 0px;
+    background: #f1f1f1;
+    border: 1px solid #d8d8d8;">
+<img src="/thumnail/d0bf0ff21be663c76cfc65375fba8e31.jpg" style="    max-height: 100px;
+    float: left;
+    margin-right: 10px;"/>
+<h1 class="text-left" style=" font-size: 2.5rem;
+    text-align: left;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 10px;"> GTO <span style="    font-size: 1.5rem;
+    font-weight: normal;
+    color: #585858;"> (총 42화)</h1>
+	<span class="text-left">장르 :  </span> / <span class="text-left">작가 :  </span>
+	</div>
+</div>
+<div class="table-responsive">
+	<table class="table div-table list-pc bg-white">
+	<thead style="display:none;">
+	<tr>
+			
+					<th scope="col">포토</th>
+				<th scope="col">번호</th>
+		<th scope="col">제목</th>
+	</tr>
+	</thead>
+	<tbody>
+			<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	42						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53690">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1822614064_zVZd8h9J_994cb0a769eb08e8d38c09ece44b1dd1ba7232df_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53690">
+												GTO 애장판 14권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:52:02 | </span>
+				<span>인기 968</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	41						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53677">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293935_RT5JEsdh_58a573d61b3155936d63008bfbdca5c84cd61746_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53677">
+												GTO 애장판 14권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:48:33 | </span>
+				<span>인기 582</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	40						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53662">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294073_T5arJg2z_4388bde8c62ddb1fde29ebb35027c00e2a466406_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53662">
+												GTO 애장판 14권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:44:57 | </span>
+				<span>인기 590</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	39						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53651">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294073_6V0malZB_6fd78686819a95da23f32b9af548861db1af647b_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53651">
+												GTO 애장판 13권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:41:20 | </span>
+				<span>인기 528</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	38						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53637">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546355_JvTpeLu2_d13288faa645103ba8488631b87b0cdde0dfe8e8_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53637">
+												GTO 애장판 13권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:37:37 | </span>
+				<span>인기 520</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	37						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53631">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294037_1g34rUbc_d29183337a3852d90e8d2cb6d4720519672ad1dd_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53631">
+												GTO 애장판 13권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:34:03 | </span>
+				<span>인기 559</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	36						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53623">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546313_eVmxn5LN_64385d3e5b2a6d7804367e31b4a136ea607ea447_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53623">
+												GTO 애장판 12권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:30:54 | </span>
+				<span>인기 539</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	35						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53611">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294037_YlxqtvdL_fbbdc4dfaec99d68b6d05b9a259535742c98d33f_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53611">
+												GTO 애장판 12권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:26:33 | </span>
+				<span>인기 537</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	34						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53601">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294037_UG52SJBm_1768485f84192317595cbf6226b5e770b839890c_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53601">
+												GTO 애장판 12권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:22:53 | </span>
+				<span>인기 597</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	33						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53592">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294037_0frt9pXU_09e22539f24832b3c18574f92be9eef2963dc996_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53592">
+												GTO 애장판 11권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:19:30 | </span>
+				<span>인기 583</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	32						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53581">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293929_SjLUlBHc_a63e3499db22eff634a71dcad665e446d064c8cf_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53581">
+												GTO 애장판 11권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:15:24 | </span>
+				<span>인기 594</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	31						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53570">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546301_ZGKJg5yS_c585cd96f59849091a9a06b4dbc80237bfcf8343_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53570">
+												GTO 애장판 11권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:12:03 | </span>
+				<span>인기 641</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	30						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53561">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293935_Ens2AJHP_133847e0f67e59bbfbe2a361721b059f38404948_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53561">
+												GTO 애장판 10권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:09:11 | </span>
+				<span>인기 627</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	29						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53550">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294031_D2kVuH6G_f2d4dfc545278d03d42e605e424fea798bf5fc68_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53550">
+												GTO 애장판 10권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:05:24 | </span>
+				<span>인기 573</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	28						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53542">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1822614064_d5qxQzoB_ac580c1505acb18e77ee60f7a35f5058b6a83842_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53542">
+												GTO 애장판 10권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 18:02:10 | </span>
+				<span>인기 623</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	27						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53533">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293971_oKFIaLSv_9673cf68ae4d036d3f467f2c8cdefc50a61962e5_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53533">
+												GTO 애장판 9권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:59:05 | </span>
+				<span>인기 603</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	26						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53526">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294162_1rkjm4UK_657f94aaeb66f051b81054fcea4cd4cb249d2d9e_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53526">
+												GTO 애장판 9권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:56:08 | </span>
+				<span>인기 587</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	25						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53514">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294091_jEYbd8Ku_8f2f365d18908131d7f11c71c8f6773ae9b02810_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53514">
+												GTO 애장판 9권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:52:58 | </span>
+				<span>인기 622</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	24						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53493">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293929_G0KyHlE5_ae2a481cf9a466eea22728238082124a04aa41ac_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53493">
+												GTO 애장판 8권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:49:46 | </span>
+				<span>인기 594</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	23						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53484">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546301_Mm0xpRvL_1c0a7d713ee92bacc52aab47b66a2e36b6c57d20_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53484">
+												GTO 애장판 8권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:46:50 | </span>
+				<span>인기 602</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	22						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53475">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294073_dwoNEZSk_bc582a2bed38921c2e5b2f6ab8ae4f32f4604a3e_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53475">
+												GTO 애장판 8권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:43:40 | </span>
+				<span>인기 615</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	21						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53465">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546379_AZplIFjS_68c87cf0ca7a50f6a2bdea82d99369e2f4fba0ff_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53465">
+												GTO 애장판 7권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:40:43 | </span>
+				<span>인기 599</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	20						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53455">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546313_4hQa9ZLY_cbc1ff8cbdea6c9fd3ace655b911e8255964d8b5_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53455">
+												GTO 애장판 7권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:37:44 | </span>
+				<span>인기 592</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	19						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53444">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294031_qD4s0bW3_7941999d16f3e0fa3f5b7e9e3d8f6925405613fe_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53444">
+												GTO 애장판 7권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:34:31 | </span>
+				<span>인기 623</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	18						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53435">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294091_S9muNCfL_a4a0e45ef875560a9ef9793cf9a1394a5f067870_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53435">
+												GTO 애장판 6권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:31:23 | </span>
+				<span>인기 584</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	17						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53428">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293935_FRDXGs7x_11a7d492587117b8d5d232f53add014e3bdb4a59_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53428">
+												GTO 애장판 6권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:28:43 | </span>
+				<span>인기 609</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	16						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53424">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294073_zK40CcOP_cfea4d08e77debf2da98856705e9ffeb7c05a905_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53424">
+												GTO 애장판 6권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:26:01 | </span>
+				<span>인기 657</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	15						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53416">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546379_uAoiMGz2_f62f90c959a77dd2d1dc22462b38acc4b1433058_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53416">
+												GTO 애장판 5권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:23:03 | </span>
+				<span>인기 630</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	14						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53411">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1822614190_xqA5YKs7_2f4c5978ec7ca4eabd63937016410264c1da8614_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53411">
+												GTO 애장판 5권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:20:14 | </span>
+				<span>인기 622</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	13						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53404">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546313_BkVpUE4N_a08241d615d0e1d4b9df95bf1bfd4b27372aa2b7_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53404">
+												GTO 애장판 5권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:17:31 | </span>
+				<span>인기 664</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	12						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53399">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293935_R04kWbZs_48a37d9a473ec8ca429fe357bfb0b388dd2d8c2a_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53399">
+												GTO 애장판 4권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:14:54 | </span>
+				<span>인기 656</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	11						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53391">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294031_syI7BVJg_ea9eb4e16591b40fc36ec7a4e2d4c7b8a52d166d_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53391">
+												GTO 애장판 4권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:11:44 | </span>
+				<span>인기 601</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	10						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53386">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546355_xc98PCfN_10b4288ec7777ce471b83c60dc22b0394487cc78_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53386">
+												GTO 애장판 4권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:08:59 | </span>
+				<span>인기 714</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	9						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53381">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293935_zp7Df0sb_992a6881fa9da423de1d748eb743958a958589b6_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53381">
+												GTO 애장판 3권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:06:23 | </span>
+				<span>인기 691</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	8						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53376">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546313_KzqjRu5i_aa7d3265fceba77e49ec52463ca5fb956f1d725d_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53376">
+												GTO 애장판 3권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 17:02:58 | </span>
+				<span>인기 647</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	7						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53370">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293935_kGomjTUr_a672aa3c029dab1766aee339dab94ff32fecd738_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53370">
+												GTO 애장판 3권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 16:59:49 | </span>
+				<span>인기 706</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	6						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53366">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728293929_Tl4X2Dv8_8c9ff3c6c05715230e2953f380e1406dfbeca3ff_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53366">
+												GTO 애장판 2권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 16:57:10 | </span>
+				<span>인기 730</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	5						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53356">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294031_syg4XPUl_02f9f4a0462af0ace789bfda8a80d56039cde7a4_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53356">
+												GTO 애장판 2권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 16:53:32 | </span>
+				<span>인기 701</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	4						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53351">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546355_h1FznMVs_7ef5710d00c008b964d964874a9a69198e1783d0_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53351">
+												GTO 애장판 2권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 16:50:32 | </span>
+				<span>인기 765</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	3						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53345">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1822614190_bSpIVto3_75bfe9493495c06133992f49e4c018c3542fd56d_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53345">
+												GTO 애장판 1권 - 3											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 16:47:31 | </span>
+				<span>인기 756</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	2						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53337">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-1729546379_8P4OlrRQ_8e6e53acd05e045a21c25f7197a68686ed48d05e_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53337">
+												GTO 애장판 1권 - 2											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 16:44:40 | </span>
+				<span>인기 840</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+		<tr>
+				<td class="text-left" style="    font-size: 1.4rem;
+    width: 5%;
+    font-weight: bold;
+    color: #7c7c7c; ">
+	1						</td>	
+					<td class="list-img text-left" style="    width: 5%; text-align:left !important;">
+				<a href="/bbs/cmoic/20342/53329">
+											<img src="https://marumaru.cloud/data/file/cmoic/thumb-2728294031_xByQ1qeR_a8d6a2a755f51c93f118e3c2ed3c77602325173b_50x50.jpg" alt="">
+									</a>
+			</td>
+				<td class="list-subject">
+			<a href="/bbs/cmoic/20342/53329">
+												GTO 애장판 1권 - 1											</a>
+
+				<span style="    font-size: 1.2rem;
+    color: darkgrey;">2019-03-14 16:41:49 | </span>
+				<span>인기 1422</span>
+							<td class="text-center en font-11">0</td>
+						</td>
+
+
+	</tr>
+			</tbody>
+	</table>
+</div>
+
+			<div class="list-btn-box">
+									<div class="form-group pull-right list-btn">
+						<div class="btn-group dropup">
+												
+						</div>
+					</div>
+								<div class="form-group list-btn font-12">
+					<div class="btn-group">
+					
+																	</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</form>
+
+
+		<div class="clearfix"></div>
+
+		
+		<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="text-center">
+							<h4 id="myModalLabel"><i class="fa fa-search fa-lg"></i> Search</h4>
+						</div>
+						<form name="fsearch" method="get" role="form" class="form" style="margin-top:20px;">
+							<input type="hidden" name="bo_table" value="cmoic">
+							<input type="hidden" name="sca" value="20342">
+							<input type="hidden" name="sop" value="and">
+							<div class="form-group">
+								<label for="sfl" class="sound_only">검색대상</label>
+								<select name="sfl" id="sfl" class="form-control input-sm">
+									<option value="wr_subject">제목</option>
+									<option value="wr_content">내용</option>
+									<option value="wr_subject||wr_content">제목+내용</option>
+									<option value="mb_id,1">회원아이디</option>
+									<option value="mb_id,0">회원아이디(코)</option>
+									<option value="wr_name,1">글쓴이</option>
+									<option value="wr_name,0">글쓴이(코)</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
+								<input type="text" name="stx" value="" required id="stx" class="form-control input-sm" maxlength="20" placeholder="검색어">
+							</div>
+
+							<div class="btn-group btn-group-justified">
+								<div class="btn-group">
+									<button type="submit" class="btn btn-color"><i class="fa fa-check"></i></button>
+								</div>
+								<div class="btn-group">
+									<button type="button" class="btn btn-black" data-dismiss="modal"><i class="fa fa-times"></i></button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- } 게시판 목록 끝 -->
+										</div>
+					<div class="col-md-3 at-col at-side">
+						<style>
+	.widget-side .div-title-underbar { margin-bottom:15px; }
+	.widget-side .div-title-underbar span { padding-bottom:4px; }
+	.widget-side .div-title-underbar span b { font-weight:500; }
+	.widget-box { margin-bottom:25px; }
+	
+.category-image {
+  align-self: center;
+  background: black;
+  border-radius: 5px 0 0 5px;
+}
+
+.category-image-responsive {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px 5px 0 0;
+}
+
+.categories-list {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.category {
+ 
+}
+
+.category-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color:#fff;
+}
+
+.category-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color:#ccc;
+}
+
+.category-description {
+  background: #333;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+  max-width: 320px;
+  box-sizing: border-box;
+  border-radius: 0 0 5px 5px;
+}
+
+.categories-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.category {
+  width: 100%;
+}
+
+.category a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+}
+@media screen and (min-width: 300px){
+  .col-md-9{
+    float: right;
+  }
+  .col-md-3{
+    position: inherit !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .col-md-9{
+    float: right;
+    padding-top: 20px !important;
+  }
+  .category a:hover {
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+  }
+    .category a:hover .category-title {
+    text-shadow:1px 1px 1px #000;
+  }
+    .category a:hover .category-subtitle {
+    text-shadow:1px 1px 1px #000;
+  }
+  
+  .category-image-responsive {
+    border-radius: 5px 0 0 5px;
+	
+  }
+  .category a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: stretch;
+  }
+  .category-description {
+    justify-content: space-around;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+  }
+  .category {
+    width: calc(50% - 15px);
+  }
+  .category-title {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  .category-subtitle {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .category {
+    width: 100%;
+  }
+  .category-title {
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+  .category-subtitle {
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+}
+</style>
+
+
+<div class="widget-side" style="padding-right: 2px;">
+
+<style>
+.hidden-sm { display:none; }
+</style>
+
+
+
+
+	<div class="hidden-sm hidden-xs">
+		<!-- 로그인 시작 -->
+		<div class="div-title-underbar loginForm" style="">
+			<span class="div-title-underbar-bold border-navy font-16 en" >
+				<b>회원 로그인</b>
+			</span>
+		</div>
+
+		<div class="widget-box" style="   padding: 15px 10px 10px 15px;  border: 1px solid #d0d0d0;margin-bottom:10px;">
+			<div class="basic-outlogin">
+	
+		<form id="basic_outlogin" name="basic_outlogin" method="post" action="https://marumaru.cloud/bbs/login_check.php" autocomplete="off" role="form" class="form" onsubmit="return basic_outlogin_form(this);">
+		<input type="hidden" name="url" value="https://marumaru.cloud/bbs/cmoic/20342">
+		<div class="form-group text-left" style="     margin: 0px;
+    width: 50%;
+    float: left;">
+			<div class="form-group" style="    margin-bottom: 5px;">	
+				<div class="input-group">
+
+					<input type="text" name="mb_id" id="outlogin_mb_id" style="height: 25px;" class="form-control input-sm" placeholder="아이디" tabindex="21">
+				</div>
+			</div>
+			<div class="form-group">	
+				<div class="input-group">
+		
+					<input type="password" name="mb_password" id="outlogin_mb_password" style="height: 25px;" class="form-control input-sm" placeholder="비밀번호" tabindex="22">
+				</div>
+			</div>
+			</div>
+			<div class="form-group text-right" style="    margin: 0px;
+    width: 45%;
+    float: left;
+    margin: 0px;
+    /* margin-top: 10px; */
+    line-height: 30px;
+    margin-left: 10px;">
+			<div class="form-group">
+			<div class="pull-left text-muted hidden-xs">
+					<label><input type="checkbox" name="auto_login" value="1" id="outlogin_remember_me" class="remember-me"> 정보기억</label>
+				</div>
+				<button type="submit" class="btn btn-navy btn-block en" tabindex="23" style="    font-size: 1.2rem;
+    background: #fff;
+    width: 70%;
+    /* text-align: center; */
+    font-family: 돋움;
+    /* font-weight: bold; */
+    color: #000000 !important;
+    padding: 5px;
+    border-radius: 5px !important;
+    border: 1px solid #b2b2b2;
+    max-width: 80px;">
+					로그인
+				</button>    
+			</div>	
+			</div>
+			<div class="clearfix"></div>
+			<div style="letter-spacing:-1px;">
+	
+				<div class="pull-left text-muted">
+					<a href="https://marumaru.cloud/bbs/register.php"><span class="text-muted" style="    font-family: 맑은 고딕;"><strong>회원가입</strong></span></a>
+					<span class="lightgray">&nbsp;|&nbsp;</span>
+					<a href="https://marumaru.cloud/bbs/password_lost.php" class="win_password_lost"><span class="text-muted" style="    font-family: 맑은 고딕;">아이디/패스워드찾기</span></a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</form>
+
+		
+		<script>
+		function basic_outlogin_form(f) {
+			if (f.mb_id.value == '') {
+				alert('아이디를 입력해 주세요.');
+				f.mb_id.focus();
+				return false;
+			}
+			if (f.mb_password.value == '') {
+				alert('비밀번호를 입력해 주세요.');
+				f.mb_password.focus();
+				return false;
+			}
+			return true;
+		}
+		</script>
+	</div>		</div>
+		<!-- 로그인 끝 -->
+    <div class="row">
+		<div class="col-md-12 col-sm-6">
+
+			<!-- 새글 시작 -->
+			<div class="div-title-underbar">
+				<a href="/bbs/notice">
+					<span class="div-title-underbar-bold border-navy font-16 en">
+						<b>공지사항</b>
+					</span>
+				</a>
+			</div>
+			<div class="widget-box">
+				<div class="basic-post-list">
+	
+<ul class="post-list">
+	<li class="ellipsis">
+		<a href="https://marumaru.cloud/bbs/board.php?bo_table=notice&amp;wr_id=19857">
+			 
+				<span class="pull-right gray font-12">
+																&nbsp;09.11									</span>
+						<span class="lightgray"><i class='fa fa-pencil'></i></span>			<b>배너 문의</b>		</a> 
+	</li>
+</ul>
+</div>
+			</div>
+			<!-- 새글 끝 -->
+
+		</div>
+  </div>
+
+	</div>	
+
+
+
+
+</div>					</div>
+				</div>
+						</div><!-- .at-container -->
+			</div><!-- .at-body -->
+
+			<footer class="at-footer">
+			<nav class="at-links">
+				<div class="at-container">
+					<ul class="pull-left">
+						<li><a>Privacy Policy</a></li> 
+						<li><a>Acceptsuble Use Policy (AUP)</a></li> 
+						<li><a>Terms of Service (TOS)</a></li> 
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</nav>
+			<div class="at-infos">
+				<div class="at-container">
+					
+									</div>
+			</div>
+		</footer>
+	</div><!-- .wrapper -->
+
+<div class="at-go">
+	<div id="go-btn" class="go-btn">
+		<span class="go-top cursor"><i class="fa fa-chevron-up"></i></span>
+		<span class="go-bottom cursor"><i class="fa fa-chevron-down"></i></span>
+	</div>
+</div>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://marumaru.cloud/thema/Basic/assets/js/respond.js"></script>
+<![endif]-->
+
+<!-- JavaScript -->
+<script>
+var sub_show = "slide";
+var sub_hide = "";
+var menu_startAt = "0";
+var menu_sub = "";
+var menu_subAt = "0";
+</script>
+<script src="https://marumaru.cloud/thema/Basic/assets/bs3/js/bootstrap.min.js"></script>
+<script src="https://marumaru.cloud/thema/Basic/assets/js/sly.min.js"></script>
+<script src="https://marumaru.cloud/thema/Basic/assets/js/custom.js"></script>
+
+<script>
+var sidebar_url = "https://marumaru.cloud/thema/Basic/widget/basic-sidebar";
+var sidebar_time = "30";
+</script>
+<script src="https://marumaru.cloud/thema/Basic/widget/basic-sidebar/sidebar.js"></script>
+
+<!-- sidebar Box -->
+<aside id="sidebar-box" class="ko">
+
+	<!-- Head Line -->
+	<div class="sidebar-head bg-navy"></div>
+
+	<!-- sidebar Wing -->
+	<div class="sidebar-wing">
+		<!-- sidebar Wing Close -->
+		<div class="sidebar-wing-close sidebar-close en" title="닫기">
+			<i class="fa fa-times"></i>
+		</div>
+	</div>
+
+	<!-- sidebar Content -->
+	<div id="sidebar-content" class="sidebar-content">
+
+		<div class="h30"></div>
+
+		<!-- Common -->
+		<div class="sidebar-common">
+
+			<!-- Login -->
+			<div class="btn-group btn-group-justified" role="group">
+									<a href="#" onclick="sidebar_open('sidebar-user'); return false;" class="btn btn-navy btn-sm">로그인</a>
+					<a href="https://marumaru.cloud/bbs/register.php" class="btn btn-navy btn-sm">회원가입</a>
+					<a href="https://marumaru.cloud/bbs/password_lost.php" class="win_password_lost btn btn-navy btn-sm">정보찾기</a>
+							</div>
+
+			<div class="h15"></div>
+
+		</div>
+
+		<!-- Menu -->
+		<div id="sidebar-menu" class="sidebar-item">
+			
+<!-- Categroy -->
+<div class="div-title-underline-thin en">
+	<b>MENU</b>
+</div>
+
+
+<div class="sidebar-menu panel-group" id="sidebar_menu" role="tablist" aria-multiselectable="true">
+						<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="/bbs/board.php?bo_table=update" class="no-sub">
+						업데이트											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head active" role="tab">
+					<a href="/bbs/page.php?hid=comicC" class="no-sub">
+						만화(썸네일)											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="https://jusoshow.me/toonsarang" target="_blank" class="no-sub">
+						웹툰											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="https://jusoshow.me/avpop" target="_blank" class="no-sub">
+						성인											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="http://win-마루마루.com/" target="_blank" class="no-sub">
+						보증토토											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="/bbs/board.php?bo_table=webcomic" class="no-sub">
+						웹코믹											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab">
+					<a href="/bbs/board.php?bo_table=humor" class="no-sub">
+						유머											</a>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab" id="sidebar_menu_c8">
+					<a href="#sidebar_menu_s8" data-toggle="collapse" data-parent="#sidebar_menu" aria-expanded="true" aria-controls="sidebar_menu_s8" class="is-sub">
+						<span class="ca-href pull-right" onclick="sidebar_href('https://marumaru.cloud/bbs/board.php?bo_table=free');">&nbsp;</span>
+						게시판											</a>
+				</div>
+				<div id="sidebar_menu_s8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sidebar_menu_c8">
+					<ul class="ca-sub">
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=free">
+								자유게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=hobby">
+								취미게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=infor">
+								지식붕게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=original">
+								원본게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=reserve">
+								역식자게시판															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=review">
+								감상/리뷰															</a>
+						</li>
+																	<li>
+							<a href="https://marumaru.cloud/bbs/board.php?bo_table=notice">
+								공지사항															</a>
+						</li>
+										</ul>
+				</div>
+			</div>
+			</div>
+
+<div class="h20"></div>
+
+
+		</div>
+
+		<!-- Search -->
+		<div id="sidebar-search" class="sidebar-item">
+			
+<!-- Search -->
+<div class="div-title-underline-thin en">
+	<b>SEARCH</b>
+</div>
+<div class="sidebar-search">
+	<form id="ctrlSearch" name="ctrlSearch" method="get" onsubmit="return sidebar_search(this);" role="form" class="form">
+		<div class="row">
+			<div class="col-xs-6">
+				<select name="url" class="form-control input-sm">
+					<option value="https://marumaru.cloud/bbs/search.php">게시물</option>
+										<option value="https://marumaru.cloud/bbs/tag.php">태그</option>
+				</select>
+			</div>
+			<div class="col-xs-6">
+				<select name="sop" class="form-control input-sm">
+					<option value="or">또는</option>
+					<option value="and">그리고</option>
+				</select>	
+			</div>
+		</div>
+		<div class="input-group input-group-sm" style="margin-top:8px;">
+			<input type="text" name="stx" class="form-control input-sm" value="" placeholder="검색어는 두글자 이상">
+			<span class="input-group-btn">
+				<button type="submit" class="btn btn-navy btn-sm"><i class="fa fa-search"></i></button>
+			</span>
+		</div>
+	</form>				
+</div>
+		</div>
+
+		<!-- User -->
+		<div id="sidebar-user" class="sidebar-item">
+			<div class="sidebar-login">
+	
+		<form id="sidebar_login_form" name="sidebar_login_form" method="post" action="https://marumaru.cloud/bbs/login_check.php" autocomplete="off" role="form" class="form" onsubmit="return sidebar_login(this);">
+		<input type="hidden" name="url" value="https://marumaru.cloud/bbs/cmoic/20342">
+			<div class="form-group">	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-user gray"></i></span>
+					<input type="text" name="mb_id" id="sidebar_mb_id" class="form-control input-sm" placeholder="아이디" tabindex="91">
+				</div>
+			</div>
+			<div class="form-group">	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-lock gray"></i></span>
+					<input type="password" name="mb_password" id="sidebar_mb_password" class="form-control input-sm" placeholder="비밀번호" tabindex="92">
+				</div>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-navy btn-block" tabindex="93">Login</button>    
+			</div>	
+
+			<label class="text-muted" style="letter-spacing:-1px;">
+				<input type="checkbox" name="auto_login" value="1" id="sidebar_remember_me" class="remember-me" tabindex="94">
+				자동로그인 및 로그인 상태 유지
+			</label>
+		</form>
+
+		
+		<div class="h10"></div>
+
+		
+		<!-- Member -->
+		<div class="div-title-underline-thin en">
+			<b>MEMBER</b>
+		</div>
+		<ul class="sidebar-list list-links">
+			<li><a href="https://marumaru.cloud/bbs/register.php">회원가입</a></li>
+			<li><a href="https://marumaru.cloud/bbs/password_lost.php" class="win_password_lost">아이디/비밀번호 찾기</a></li>
+		</ul>
+		
+	</div>
+
+<div class="h20"></div>
+
+<!-- Service -->
+<div class="div-title-underline-thin en">
+	<b>SERVICE</b>
+</div>
+
+<ul class="sidebar-list list-links">
+		<li><a href="https://marumaru.cloud/bbs/faq.php">자주하시는 질문(FAQ)</a></li>
+	<li><a href="https://marumaru.cloud/bbs/qalist.php">1:1 문의</a></li>
+	<li><a href="https://marumaru.cloud/bbs/new.php">새글모음</a></li>
+	<li><a href="https://marumaru.cloud/bbs/current_connect.php">현재접속자</a></li>
+</ul>
+		</div>
+
+		<!-- Response -->
+		<div id="sidebar-response" class="sidebar-item">
+			<div id="sidebar-response-list"></div>
+		</div>
+
+		
+		<div class="h30"></div>
+	</div>
+
+</aside>
+
+<div id="sidebar-box-mask" class="sidebar-close"></div>
+
+
+<!-- 아미나빌더 1.8.0 / 그누보드 5.3.1.6 -->
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+</body>
+</html>
+
+<!-- 사용스킨 : basic -->
