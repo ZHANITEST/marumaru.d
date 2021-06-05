@@ -1,4 +1,14 @@
 module com.zhanitest.marumaru.common;
+/***
+ * 공통부
+ * 
+ * 라이브러리 구동에 필요한 최소한의 설정 값을 상수로 정의해 사용한다.
+ * 
+ * Authors: ZHANITEST, github.com/zhanitest/marumaru.d
+ * License: LGPL-v2
+ */
+
+
 
 /***
  * 공통부 데이터
@@ -49,7 +59,7 @@ struct DevData {
 }
 
 /***
- * 개발용 설정 값
+ * 유저에이전트 설정 값
  */
 struct UserAgent {
     //--------------------------------------------------------------------------------

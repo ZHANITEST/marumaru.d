@@ -1,16 +1,25 @@
 module com.zhanitest.marumaru.feature;
-
-import requests;
+/***
+ * 피처 - Feature
+ * 
+ * 프로그램의 가장 작은 단위로 기능 위주의 클래스를 정의한다.
+ * 
+ * Authors: ZHANITEST, github.com/zhanitest/marumaru.d
+ * License: LGPL-v2
+ */
 import std.uri:encode;
 import std.conv:to;
+import requests;
 import com.zhanitest.marumaru.common;
 
 /***
- * 클라이언트 피처:: 웹 요청 및 응답을 받는다
- *  OpenSSL 인증서 위치 기본 값 = cacert.pem
+ * 클라이언트 피처
+ * 
+ * 웹 요청 및 응답을 받는 기능을 수행한다.
+ * OpenSSL 인증서 위치 기본 값(`./cacert.pem`)은 `com.zhanitest.marumaru.common`을 참조한다.
  */
 class ClientFeature {
-    private string Rurl;    /// 만화 URL
+    private string Rurl;    /// URL
     private string sslPath; /// SSL 인증서 위치
     private string Rhtml;   /// 요청결과
     @property public string html()  { return this.Rhtml; }
@@ -23,6 +32,7 @@ class ClientFeature {
      */
     public this(string url) {
         this.Rurl = url;
+        this.Rhtml = "";
         this.sslPath = CommonData.SSL_PATH;
     }
 
@@ -75,5 +85,14 @@ class ClientFeature {
             f.close();
             this.Rhtml = sb.data;
         }
+    }
+
+    /***
+     * 요청결과 받기
+     * Return:
+     *  요청에 대한 응답 HTML 본문 값
+     */
+    public string getHtml() {
+        return this.Rhtml;
     }
 }
