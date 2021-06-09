@@ -7,6 +7,7 @@ module com.zhanitest.marumaru.utils;
  * Authors: ZHANITEST, github.com/zhanitest/marumaru.d
  * License: LGPL-v2
  */
+import std.stdio:File;
 import std.string:replace;
 import std.file:exists,mkdir,remove;
 import std.array:split,appender;
@@ -69,5 +70,20 @@ struct Utils {
         }
         download(CommonData.SSL_DOWNLOAD_URL, CommonData.SSL_PATH);
         return exists(CommonData.SSL_PATH);
+    }
+
+    /***
+     * 테스트 파일 쓰기
+     * 
+     * 테스트 파일을 w모드로 작성한다.
+     *
+     * Params:
+     *  fileName = 파일명
+     *  fileBody = 파일내용
+     */
+    public static void textFileWrite(string fileName, string fileBody) {
+        File f = File(fileName, "w");
+        f.write(fileBody);
+        f.close();
     }
 }
