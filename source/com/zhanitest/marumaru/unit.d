@@ -83,6 +83,9 @@ class Comic : Requestable {
     private string RcomicId;        /// 작품ID (Read-only)
     private PageLink[] RpageLinks;  /// 페이지URL 모음 (Read-only)
 
+    /*** URL를 취득한다. (ex. `https://example.org/1234/4567`) */
+    @property string url()      { return this.Rurl; }
+
     /***
      * 생성자
      *
@@ -97,7 +100,7 @@ class Comic : Requestable {
         sb.put("/");
         sb.put(CommonData.BOARD);
         sb.put("/");
-        sb.put(RcomicId);
+        sb.put(comicId);
         this.RcomicId = comicId;
         super(sb.data, RcomicId);
     }
@@ -110,7 +113,7 @@ class Comic : Requestable {
      * Returns: 페이지 제목
      */
     public string getTitle() {
-        const string pattern = `<h1 class="text-left" style="[ A-z-:\d.;\n#]+">([』『】【><.,?;:'"|~+=)(\]\[!@#$%^&*★☆\w\d- 가-힣]+)<`;
+        const string pattern = `<title>MARUMARU - 마루마루 - ([』『】【><.,?;:'"|~+=)(\]\[!@#$%^&*★☆\w\d- 가-힣]+)<\/title>`;
         auto rx = matchAll(this.html, pattern);
         if(rx.empty()) {
             throw new Exception("Regex result is empty!", this.html);
@@ -137,15 +140,10 @@ class Comic : Requestable {
      */
     public PageLink[] getPageLinks() {
         PageLink[] result;
-        const string pattern =`<a href="(\/bbs\/cmoic\/[\d]+\/[\d]+)">[\n\t ]+([』『】【><.,?;:'"|~+=)(\]\[!@#$%^&*★☆\w\d- 가-힣]+)[\n\t ]+<\/a>`;
+        const string pattern =`<a href="(\/bbs\/cmoic\/[\d]+\/[\d]+)">[\r\n\t ]+([』『】【><.,?;:'"|~+=)(\]\[!@#$%^&*★☆\w\d- 가-힣]+)[\n\t ]+<\/a>`;
         auto rx = matchAll(this.html, pattern);
         if(rx.empty()) {
-            import std.stdio;
-            File f = File("exception.txt", "w");
-            f.write(this.html);
-            f.close();
             throw new Exception("Regex result is empty!");
-            
         }
         foreach(r; rx) {
             // r[0] = 원문
@@ -227,8 +225,7 @@ class ComicPage : Requestable {
      *
      * Returns: 페이지 제목
      */
-	@property
-    public string title() {
+	public string getTitle() {
         const string pattern = `<meta property="og:title" content="([』『】【><.,?;:'"|~+=)(\]\[!@#$%^&*★☆\w\d- 가-힣]+)" \/>`;
         auto rx = matchAll(this.html, pattern);
         if(rx.empty()) {
