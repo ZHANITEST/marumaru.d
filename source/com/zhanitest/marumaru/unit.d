@@ -140,7 +140,12 @@ class Comic : Requestable {
         const string pattern =`<a href="(\/bbs\/cmoic\/[\d]+\/[\d]+)">[\n\t ]+([』『】【><.,?;:'"|~+=)(\]\[!@#$%^&*★☆\w\d- 가-힣]+)[\n\t ]+<\/a>`;
         auto rx = matchAll(this.html, pattern);
         if(rx.empty()) {
+            import std.stdio;
+            File f = File("exception.txt", "w");
+            f.write(this.html);
+            f.close();
             throw new Exception("Regex result is empty!");
+            
         }
         foreach(r; rx) {
             // r[0] = 원문
